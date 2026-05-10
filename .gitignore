@@ -1,0 +1,69 @@
+# Local/editor files
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# Generated outputs and temporary files
+output/
+output_tmp/
+tmp/
+tmp_file/
+logs/
+*.log
+*.blend*
+*.bullet
+*.ply
+
+# Large assets and prebuilt Docker images live outside git.
+assets/*
+!assets/.gitkeep
+docker-image/*
+!docker-image/.gitkeep
+KubriCount/*
+!KubriCount/.gitkeep
+
+# Common large archives / datasets
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+*.7z
+*.rar
+*.glb
+*.obj
+*.fbx
+*.npy
+*.npz
+*.jsonl
+*.parquet
+
+# Generated visualizations
+vis_all/
+stat_vis/
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.gif
+*.pdf

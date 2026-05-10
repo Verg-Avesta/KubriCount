@@ -1,0 +1,13 @@
+* text=auto
+
+# Keep generated/binary-heavy formats out of textual diffs if they are ever tracked intentionally.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.gif binary
+*.pdf binary
+*.blend binary
+*.glb binary
+*.tar binary
+*.tar.gz binary

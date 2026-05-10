@@ -1,0 +1,3481 @@
+{
+  "category_configs": {
+    "default": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.20, 0.24],
+        "object_size_max": [0.34, 0.42],
+        "density_factor": [1.20, 1.40],
+        "min_distance_ratio": [0.55, 0.68],
+        "placement_attempts": [80, 120],
+        "camera_distance_min": [3.0, 4.5],
+        "camera_distance_max": [10.0, 14.5],
+        "camera_height_min": [2.0, 3.2],
+        "camera_height_max": [10.0, 15.0],
+        "camera_angle_min": [72.0, 78.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [55.0, 75.0],
+        "focal_length_max": [110.0, 145.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "vessel": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.28, 0.34],
+        "object_size_max": [0.45, 0.55],
+        "density_factor": [1.10, 1.30],
+        "min_distance_ratio": [0.60, 0.72],
+        "placement_attempts": [90, 140],
+        "camera_distance_min": [6.0, 8.0],
+        "camera_distance_max": [14.0, 20.0],
+        "camera_height_min": [3.0, 5.0],
+        "camera_height_max": [14.0, 22.0],
+        "camera_angle_min": [70.0, 78.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [45.0, 60.0],
+        "focal_length_max": [95.0, 125.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "boat": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.26, 0.32],
+        "object_size_max": [0.42, 0.52],
+        "density_factor": [1.12, 1.32],
+        "min_distance_ratio": [0.58, 0.70],
+        "placement_attempts": [90, 140],
+        "camera_distance_min": [5.0, 7.0],
+        "camera_distance_max": [12.5, 18.0],
+        "camera_height_min": [2.4, 4.2],
+        "camera_height_max": [12.0, 18.0],
+        "camera_angle_min": [70.0, 78.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [50.0, 65.0],
+        "focal_length_max": [105.0, 140.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "airplane": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.34, 0.42],
+        "object_size_max": [0.55, 0.70],
+        "density_factor": [1.00, 1.18],
+        "min_distance_ratio": [0.70, 0.82],
+        "placement_attempts": [110, 160],
+        "camera_distance_min": [10.0, 13.5],
+        "camera_distance_max": [22.0, 32.0],
+        "camera_height_min": [6.0, 9.0],
+        "camera_height_max": [20.0, 32.0],
+        "camera_angle_min": [70.0, 78.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [35.0, 50.0],
+        "focal_length_max": [85.0, 110.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "car": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.28, 0.34],
+        "object_size_max": [0.45, 0.60],
+        "density_factor": [1.05, 1.25],
+        "min_distance_ratio": [0.62, 0.74],
+        "placement_attempts": [90, 140],
+        "camera_distance_min": [6.5, 9.0],
+        "camera_distance_max": [14.0, 20.0],
+        "camera_height_min": [4.0, 6.5],
+        "camera_height_max": [14.0, 22.0],
+        "camera_angle_min": [72.0, 78.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [45.0, 60.0],
+        "focal_length_max": [95.0, 125.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "bus": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.30, 0.36],
+        "object_size_max": [0.50, 0.65],
+        "density_factor": [1.03, 1.22],
+        "min_distance_ratio": [0.66, 0.78],
+        "placement_attempts": [100, 150],
+        "camera_distance_min": [7.5, 10.5],
+        "camera_distance_max": [16.0, 23.0],
+        "camera_height_min": [5.0, 7.5],
+        "camera_height_max": [16.0, 24.0],
+        "camera_angle_min": [72.0, 78.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [40.0, 55.0],
+        "focal_length_max": [90.0, 120.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "truck": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.30, 0.36],
+        "object_size_max": [0.50, 0.65],
+        "density_factor": [1.03, 1.22],
+        "min_distance_ratio": [0.66, 0.78],
+        "placement_attempts": [100, 150],
+        "camera_distance_min": [7.5, 10.5],
+        "camera_distance_max": [16.0, 23.0],
+        "camera_height_min": [5.0, 7.5],
+        "camera_height_max": [16.0, 24.0],
+        "camera_angle_min": [72.0, 78.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [40.0, 55.0],
+        "focal_length_max": [90.0, 120.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "train": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.32, 0.40],
+        "object_size_max": [0.55, 0.70],
+        "density_factor": [1.00, 1.18],
+        "min_distance_ratio": [0.70, 0.82],
+        "placement_attempts": [110, 160],
+        "camera_distance_min": [9.0, 12.5],
+        "camera_distance_max": [20.0, 28.0],
+        "camera_height_min": [6.0, 9.0],
+        "camera_height_max": [18.0, 28.0],
+        "camera_angle_min": [72.0, 78.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [35.0, 50.0],
+        "focal_length_max": [85.0, 110.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "rocket": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.34, 0.42],
+        "object_size_max": [0.58, 0.72],
+        "density_factor": [0.98, 1.15],
+        "min_distance_ratio": [0.72, 0.84],
+        "placement_attempts": [110, 160],
+        "camera_distance_min": [10.0, 14.0],
+        "camera_distance_max": [22.0, 32.0],
+        "camera_height_min": [8.0, 12.0],
+        "camera_height_max": [22.0, 35.0],
+        "camera_angle_min": [72.0, 80.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [32.0, 45.0],
+        "focal_length_max": [80.0, 105.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "motorcycle": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.22, 0.28],
+        "object_size_max": [0.36, 0.48],
+        "density_factor": [1.18, 1.40],
+        "min_distance_ratio": [0.56, 0.68],
+        "placement_attempts": [90, 140],
+        "camera_distance_min": [3.8, 5.5],
+        "camera_distance_max": [10.5, 15.5],
+        "camera_height_min": [2.2, 3.5],
+        "camera_height_max": [10.0, 15.0],
+        "camera_angle_min": [72.0, 78.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [55.0, 75.0],
+        "focal_length_max": [110.0, 145.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "bicycle": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.22, 0.28],
+        "object_size_max": [0.36, 0.48],
+        "density_factor": [1.18, 1.40],
+        "min_distance_ratio": [0.56, 0.68],
+        "placement_attempts": [90, 140],
+        "camera_distance_min": [4.2, 6.0],
+        "camera_distance_max": [11.5, 16.5],
+        "camera_height_min": [2.5, 4.0],
+        "camera_height_max": [11.0, 16.5],
+        "camera_angle_min": [72.0, 78.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [55.0, 75.0],
+        "focal_length_max": [110.0, 145.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "skateboard": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.20, 0.22],
+        "object_size_max": [0.30, 0.40],
+        "density_factor": [1.25, 1.55],
+        "min_distance_ratio": [0.52, 0.64],
+        "placement_attempts": [90, 140],
+        "camera_distance_min": [2.8, 4.2],
+        "camera_distance_max": [8.8, 13.5],
+        "camera_height_min": [1.6, 2.8],
+        "camera_height_max": [8.0, 12.5],
+        "camera_angle_min": [75.0, 82.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [60.0, 85.0],
+        "focal_length_max": [120.0, 160.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "fish": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.20, 0.20],
+        "object_size_max": [0.26, 0.36],
+        "density_factor": [1.30, 1.65],
+        "min_distance_ratio": [0.48, 0.60],
+        "placement_attempts": [90, 140],
+        "camera_distance_min": [2.2, 3.4],
+        "camera_distance_max": [8.5, 13.5],
+        "camera_height_min": [1.8, 2.8],
+        "camera_height_max": [8.5, 13.5],
+        "camera_angle_min": [78.0, 84.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [70.0, 95.0],
+        "focal_length_max": [135.0, 175.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "octopus_squid": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.20, 0.22],
+        "object_size_max": [0.30, 0.40],
+        "density_factor": [1.25, 1.55],
+        "min_distance_ratio": [0.50, 0.62],
+        "placement_attempts": [90, 140],
+        "camera_distance_min": [2.4, 3.6],
+        "camera_distance_max": [9.0, 14.0],
+        "camera_height_min": [2.0, 3.2],
+        "camera_height_max": [9.0, 14.0],
+        "camera_angle_min": [78.0, 84.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [65.0, 90.0],
+        "focal_length_max": [130.0, 170.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "crab": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.20, 0.20],
+        "object_size_max": [0.26, 0.36],
+        "density_factor": [1.35, 1.70],
+        "min_distance_ratio": [0.46, 0.58],
+        "placement_attempts": [90, 140],
+        "camera_distance_min": [2.0, 3.2],
+        "camera_distance_max": [8.0, 13.0],
+        "camera_height_min": [1.6, 2.6],
+        "camera_height_max": [8.0, 13.0],
+        "camera_angle_min": [80.0, 86.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [75.0, 105.0],
+        "focal_length_max": [145.0, 185.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "lobster_shrimp": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.20, 0.20],
+        "object_size_max": [0.24, 0.34],
+        "density_factor": [1.40, 1.80],
+        "min_distance_ratio": [0.44, 0.56],
+        "placement_attempts": [90, 140],
+        "camera_distance_min": [2.0, 3.0],
+        "camera_distance_max": [7.5, 12.5],
+        "camera_height_min": [1.6, 2.4],
+        "camera_height_max": [7.5, 12.5],
+        "camera_angle_min": [80.0, 86.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [80.0, 110.0],
+        "focal_length_max": [150.0, 190.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "turtle": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.22, 0.28],
+        "object_size_max": [0.36, 0.48],
+        "density_factor": [1.18, 1.45],
+        "min_distance_ratio": [0.52, 0.64],
+        "placement_attempts": [90, 140],
+        "camera_distance_min": [3.2, 4.8],
+        "camera_distance_max": [10.0, 15.0],
+        "camera_height_min": [2.2, 3.4],
+        "camera_height_max": [10.0, 15.0],
+        "camera_angle_min": [78.0, 84.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [60.0, 85.0],
+        "focal_length_max": [120.0, 160.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "frog": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.20, 0.22],
+        "object_size_max": [0.30, 0.40],
+        "density_factor": [1.25, 1.55],
+        "min_distance_ratio": [0.50, 0.62],
+        "placement_attempts": [90, 140],
+        "camera_distance_min": [2.2, 3.4],
+        "camera_distance_max": [8.5, 13.5],
+        "camera_height_min": [1.8, 2.8],
+        "camera_height_max": [8.5, 13.5],
+        "camera_angle_min": [78.0, 84.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [70.0, 95.0],
+        "focal_length_max": [135.0, 175.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "cat": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.24, 0.30],
+        "object_size_max": [0.40, 0.52],
+        "density_factor": [1.12, 1.35],
+        "min_distance_ratio": [0.58, 0.70],
+        "placement_attempts": [90, 140],
+        "camera_distance_min": [3.0, 4.5],
+        "camera_distance_max": [10.0, 14.5],
+        "camera_height_min": [2.0, 3.2],
+        "camera_height_max": [10.0, 15.0],
+        "camera_angle_min": [72.0, 78.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [55.0, 75.0],
+        "focal_length_max": [110.0, 145.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "dog": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.26, 0.32],
+        "object_size_max": [0.42, 0.55],
+        "density_factor": [1.10, 1.32],
+        "min_distance_ratio": [0.60, 0.72],
+        "placement_attempts": [90, 140],
+        "camera_distance_min": [3.2, 4.8],
+        "camera_distance_max": [10.5, 15.5],
+        "camera_height_min": [2.2, 3.5],
+        "camera_height_max": [10.5, 15.5],
+        "camera_angle_min": [72.0, 78.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [55.0, 75.0],
+        "focal_length_max": [110.0, 145.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "horse": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.28, 0.34],
+        "object_size_max": [0.45, 0.60],
+        "density_factor": [1.05, 1.25],
+        "min_distance_ratio": [0.62, 0.74],
+        "placement_attempts": [100, 150],
+        "camera_distance_min": [5.0, 7.0],
+        "camera_distance_max": [13.5, 19.5],
+        "camera_height_min": [3.5, 5.5],
+        "camera_height_max": [14.0, 22.0],
+        "camera_angle_min": [72.0, 78.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [45.0, 60.0],
+        "focal_length_max": [95.0, 125.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "deer": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.26, 0.32],
+        "object_size_max": [0.42, 0.55],
+        "density_factor": [1.08, 1.30],
+        "min_distance_ratio": [0.60, 0.72],
+        "placement_attempts": [100, 150],
+        "camera_distance_min": [5.0, 7.0],
+        "camera_distance_max": [13.5, 19.5],
+        "camera_height_min": [3.2, 5.0],
+        "camera_height_max": [14.0, 22.0],
+        "camera_angle_min": [72.0, 78.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [45.0, 60.0],
+        "focal_length_max": [95.0, 125.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "cow": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.28, 0.34],
+        "object_size_max": [0.45, 0.60],
+        "density_factor": [1.05, 1.25],
+        "min_distance_ratio": [0.62, 0.74],
+        "placement_attempts": [100, 150],
+        "camera_distance_min": [5.0, 7.0],
+        "camera_distance_max": [13.5, 19.5],
+        "camera_height_min": [3.5, 5.5],
+        "camera_height_max": [14.0, 22.0],
+        "camera_angle_min": [72.0, 78.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [45.0, 60.0],
+        "focal_length_max": [95.0, 125.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "sheep": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.24, 0.30],
+        "object_size_max": [0.40, 0.52],
+        "density_factor": [1.10, 1.35],
+        "min_distance_ratio": [0.58, 0.70],
+        "placement_attempts": [95, 145],
+        "camera_distance_min": [4.2, 6.0],
+        "camera_distance_max": [12.0, 17.0],
+        "camera_height_min": [3.0, 4.8],
+        "camera_height_max": [12.0, 18.0],
+        "camera_angle_min": [72.0, 78.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [55.0, 75.0],
+        "focal_length_max": [110.0, 145.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "person": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.30, 0.36],
+        "object_size_max": [0.50, 0.62],
+        "density_factor": [1.00, 1.18],
+        "min_distance_ratio": [0.70, 0.82],
+        "placement_attempts": [140, 200],
+        "camera_distance_min": [6.0, 8.5],
+        "camera_distance_max": [14.0, 20.0],
+        "camera_height_min": [4.0, 6.5],
+        "camera_height_max": [14.0, 22.0],
+        "camera_angle_min": [70.0, 78.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [45.0, 60.0],
+        "focal_length_max": [95.0, 125.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "elephant": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.34, 0.42],
+        "object_size_max": [0.58, 0.72],
+        "density_factor": [1.00, 1.18],
+        "min_distance_ratio": [0.72, 0.84],
+        "placement_attempts": [120, 170],
+        "camera_distance_min": [8.0, 11.5],
+        "camera_distance_max": [18.0, 26.0],
+        "camera_height_min": [5.5, 8.0],
+        "camera_height_max": [18.0, 28.0],
+        "camera_angle_min": [70.0, 78.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [40.0, 55.0],
+        "focal_length_max": [90.0, 120.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "bear": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.28, 0.34],
+        "object_size_max": [0.45, 0.60],
+        "density_factor": [1.05, 1.25],
+        "min_distance_ratio": [0.62, 0.74],
+        "placement_attempts": [100, 150],
+        "camera_distance_min": [5.0, 7.0],
+        "camera_distance_max": [13.5, 19.5],
+        "camera_height_min": [3.5, 5.5],
+        "camera_height_max": [14.0, 22.0],
+        "camera_angle_min": [72.0, 78.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [45.0, 60.0],
+        "focal_length_max": [95.0, 125.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "bird": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.20, 0.20],
+        "object_size_max": [0.24, 0.34],
+        "density_factor": [1.35, 1.70],
+        "min_distance_ratio": [0.46, 0.58],
+        "placement_attempts": [95, 145],
+        "camera_distance_min": [2.0, 3.2],
+        "camera_distance_max": [8.0, 13.0],
+        "camera_height_min": [1.6, 2.6],
+        "camera_height_max": [8.0, 13.0],
+        "camera_angle_min": [80.0, 86.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [75.0, 105.0],
+        "focal_length_max": [145.0, 185.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "butterfly": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.20, 0.20],
+        "object_size_max": [0.20, 0.30],
+        "density_factor": [1.45, 1.85],
+        "min_distance_ratio": [0.42, 0.54],
+        "placement_attempts": [95, 145],
+        "camera_distance_min": [1.6, 2.4],
+        "camera_distance_max": [7.0, 12.0],
+        "camera_height_min": [1.2, 2.0],
+        "camera_height_max": [7.0, 12.0],
+        "camera_angle_min": [82.0, 86.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [90.0, 125.0],
+        "focal_length_max": [150.0, 195.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "beetle": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.20, 0.20],
+        "object_size_max": [0.20, 0.30],
+        "density_factor": [1.45, 1.85],
+        "min_distance_ratio": [0.42, 0.54],
+        "placement_attempts": [95, 145],
+        "camera_distance_min": [1.6, 2.4],
+        "camera_distance_max": [7.0, 12.0],
+        "camera_height_min": [1.2, 2.0],
+        "camera_height_max": [7.0, 12.0],
+        "camera_angle_min": [82.0, 86.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [90.0, 125.0],
+        "focal_length_max": [150.0, 195.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "lizard": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.20, 0.22],
+        "object_size_max": [0.30, 0.40],
+        "density_factor": [1.25, 1.55],
+        "min_distance_ratio": [0.50, 0.62],
+        "placement_attempts": [95, 145],
+        "camera_distance_min": [2.2, 3.4],
+        "camera_distance_max": [8.5, 13.5],
+        "camera_height_min": [1.8, 2.8],
+        "camera_height_max": [8.5, 13.5],
+        "camera_angle_min": [78.0, 84.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [70.0, 95.0],
+        "focal_length_max": [135.0, 175.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "snake": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.20, 0.22],
+        "object_size_max": [0.30, 0.40],
+        "density_factor": [1.25, 1.55],
+        "min_distance_ratio": [0.50, 0.62],
+        "placement_attempts": [95, 145],
+        "camera_distance_min": [2.2, 3.4],
+        "camera_distance_max": [8.5, 13.5],
+        "camera_height_min": [1.8, 2.8],
+        "camera_height_max": [8.5, 13.5],
+        "camera_angle_min": [78.0, 84.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [70.0, 95.0],
+        "focal_length_max": [135.0, 175.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "banana": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.20, 0.22],
+        "object_size_max": [0.30, 0.40],
+        "density_factor": [1.00, 1.25],
+        "min_distance_ratio": [0.52, 0.64],
+        "placement_attempts": [90, 140],
+        "camera_distance_min": [2.2, 3.4],
+        "camera_distance_max": [8.5, 13.5],
+        "camera_height_min": [1.6, 2.6],
+        "camera_height_max": [8.5, 13.5],
+        "camera_angle_min": [78.0, 84.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [65.0, 90.0],
+        "focal_length_max": [125.0, 165.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "grape": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.20, 0.20],
+        "object_size_max": [0.20, 0.30],
+        "density_factor": [1.05, 1.35],
+        "min_distance_ratio": [0.48, 0.60],
+        "placement_attempts": [95, 145],
+        "camera_distance_min": [1.6, 2.4],
+        "camera_distance_max": [7.0, 12.0],
+        "camera_height_min": [1.2, 2.0],
+        "camera_height_max": [7.0, 12.0],
+        "camera_angle_min": [82.0, 86.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [90.0, 125.0],
+        "focal_length_max": [150.0, 195.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "apple": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.20, 0.22],
+        "object_size_max": [0.30, 0.42],
+        "density_factor": [1.00, 1.25],
+        "min_distance_ratio": [0.52, 0.64],
+        "placement_attempts": [90, 140],
+        "camera_distance_min": [2.0, 3.2],
+        "camera_distance_max": [8.0, 13.0],
+        "camera_height_min": [1.6, 2.6],
+        "camera_height_max": [8.0, 13.0],
+        "camera_angle_min": [78.0, 84.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [70.0, 95.0],
+        "focal_length_max": [135.0, 175.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "strawberry": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.20, 0.20],
+        "object_size_max": [0.20, 0.30],
+        "density_factor": [1.10, 1.40],
+        "min_distance_ratio": [0.46, 0.58],
+        "placement_attempts": [95, 145],
+        "camera_distance_min": [1.6, 2.4],
+        "camera_distance_max": [7.0, 12.0],
+        "camera_height_min": [1.2, 2.0],
+        "camera_height_max": [7.0, 12.0],
+        "camera_angle_min": [82.0, 86.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [95.0, 130.0],
+        "focal_length_max": [155.0, 200.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "tomatoes": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.20, 0.22],
+        "object_size_max": [0.30, 0.42],
+        "density_factor": [1.05, 1.32],
+        "min_distance_ratio": [0.50, 0.62],
+        "placement_attempts": [95, 145],
+        "camera_distance_min": [2.0, 3.2],
+        "camera_distance_max": [8.0, 13.0],
+        "camera_height_min": [1.6, 2.6],
+        "camera_height_max": [8.0, 13.0],
+        "camera_angle_min": [78.0, 84.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [70.0, 95.0],
+        "focal_length_max": [135.0, 175.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "orange": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.20, 0.22],
+        "object_size_max": [0.30, 0.42],
+        "density_factor": [1.00, 1.25],
+        "min_distance_ratio": [0.52, 0.64],
+        "placement_attempts": [90, 140],
+        "camera_distance_min": [2.0, 3.2],
+        "camera_distance_max": [8.0, 13.0],
+        "camera_height_min": [1.6, 2.6],
+        "camera_height_max": [8.0, 13.0],
+        "camera_angle_min": [78.0, 84.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [70.0, 95.0],
+        "focal_length_max": [135.0, 175.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "potatoes": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.20, 0.22],
+        "object_size_max": [0.34, 0.45],
+        "density_factor": [1.05, 1.32],
+        "min_distance_ratio": [0.50, 0.62],
+        "placement_attempts": [95, 145],
+        "camera_distance_min": [2.2, 3.4],
+        "camera_distance_max": [8.5, 13.5],
+        "camera_height_min": [1.8, 2.8],
+        "camera_height_max": [8.5, 13.5],
+        "camera_angle_min": [78.0, 84.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [70.0, 95.0],
+        "focal_length_max": [135.0, 175.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "carrot": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.20, 0.22],
+        "object_size_max": [0.30, 0.42],
+        "density_factor": [1.05, 1.32],
+        "min_distance_ratio": [0.50, 0.62],
+        "placement_attempts": [95, 145],
+        "camera_distance_min": [2.0, 3.2],
+        "camera_distance_max": [8.0, 13.0],
+        "camera_height_min": [1.6, 2.6],
+        "camera_height_max": [8.0, 13.0],
+        "camera_angle_min": [78.0, 84.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [70.0, 95.0],
+        "focal_length_max": [135.0, 175.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "onion": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.20, 0.22],
+        "object_size_max": [0.30, 0.42],
+        "density_factor": [1.05, 1.32],
+        "min_distance_ratio": [0.50, 0.62],
+        "placement_attempts": [95, 145],
+        "camera_distance_min": [2.0, 3.2],
+        "camera_distance_max": [8.0, 13.0],
+        "camera_height_min": [1.6, 2.6],
+        "camera_height_max": [8.0, 13.0],
+        "camera_angle_min": [78.0, 84.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [70.0, 95.0],
+        "focal_length_max": [135.0, 175.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "lemon_lime": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.20, 0.20],
+        "object_size_max": [0.24, 0.34],
+        "density_factor": [1.10, 1.40],
+        "min_distance_ratio": [0.48, 0.60],
+        "placement_attempts": [95, 145],
+        "camera_distance_min": [1.6, 2.4],
+        "camera_distance_max": [7.0, 12.0],
+        "camera_height_min": [1.2, 2.0],
+        "camera_height_max": [7.0, 12.0],
+        "camera_angle_min": [82.0, 86.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [90.0, 125.0],
+        "focal_length_max": [150.0, 195.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "cucumber": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.20, 0.22],
+        "object_size_max": [0.30, 0.42],
+        "density_factor": [1.05, 1.32],
+        "min_distance_ratio": [0.50, 0.62],
+        "placement_attempts": [95, 145],
+        "camera_distance_min": [2.0, 3.2],
+        "camera_distance_max": [8.0, 13.0],
+        "camera_height_min": [1.6, 2.6],
+        "camera_height_max": [8.0, 13.0],
+        "camera_angle_min": [78.0, 84.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [70.0, 95.0],
+        "focal_length_max": [135.0, 175.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "eggplant": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.20, 0.22],
+        "object_size_max": [0.30, 0.42],
+        "density_factor": [1.05, 1.32],
+        "min_distance_ratio": [0.50, 0.62],
+        "placement_attempts": [95, 145],
+        "camera_distance_min": [2.0, 3.2],
+        "camera_distance_max": [8.0, 13.0],
+        "camera_height_min": [1.6, 2.6],
+        "camera_height_max": [8.0, 13.0],
+        "camera_angle_min": [78.0, 84.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [70.0, 95.0],
+        "focal_length_max": [135.0, 175.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "pepper_vegetable": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.20, 0.22],
+        "object_size_max": [0.30, 0.42],
+        "density_factor": [1.05, 1.32],
+        "min_distance_ratio": [0.50, 0.62],
+        "placement_attempts": [95, 145],
+        "camera_distance_min": [2.0, 3.2],
+        "camera_distance_max": [8.0, 13.0],
+        "camera_height_min": [1.6, 2.6],
+        "camera_height_max": [8.0, 13.0],
+        "camera_angle_min": [78.0, 84.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [70.0, 95.0],
+        "focal_length_max": [135.0, 175.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "broccoli_cauliflower": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.20, 0.22],
+        "object_size_max": [0.30, 0.42],
+        "density_factor": [1.05, 1.32],
+        "min_distance_ratio": [0.50, 0.62],
+        "placement_attempts": [95, 145],
+        "camera_distance_min": [2.0, 3.2],
+        "camera_distance_max": [8.0, 13.0],
+        "camera_height_min": [1.6, 2.6],
+        "camera_height_max": [8.0, 13.0],
+        "camera_angle_min": [78.0, 84.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [70.0, 95.0],
+        "focal_length_max": [135.0, 175.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "radish": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.20, 0.20],
+        "object_size_max": [0.20, 0.30],
+        "density_factor": [1.10, 1.45],
+        "min_distance_ratio": [0.46, 0.58],
+        "placement_attempts": [95, 145],
+        "camera_distance_min": [1.6, 2.4],
+        "camera_distance_max": [7.0, 12.0],
+        "camera_height_min": [1.2, 2.0],
+        "camera_height_max": [7.0, 12.0],
+        "camera_angle_min": [82.0, 86.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [95.0, 130.0],
+        "focal_length_max": [155.0, 200.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "garlic": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.20, 0.20],
+        "object_size_max": [0.20, 0.30],
+        "density_factor": [1.10, 1.45],
+        "min_distance_ratio": [0.46, 0.58],
+        "placement_attempts": [95, 145],
+        "camera_distance_min": [1.6, 2.4],
+        "camera_distance_max": [7.0, 12.0],
+        "camera_height_min": [1.2, 2.0],
+        "camera_height_max": [7.0, 12.0],
+        "camera_angle_min": [82.0, 86.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [95.0, 130.0],
+        "focal_length_max": [155.0, 200.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "corn": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.20, 0.22],
+        "object_size_max": [0.30, 0.42],
+        "density_factor": [1.05, 1.32],
+        "min_distance_ratio": [0.50, 0.62],
+        "placement_attempts": [95, 145],
+        "camera_distance_min": [2.0, 3.2],
+        "camera_distance_max": [8.0, 13.0],
+        "camera_height_min": [1.6, 2.6],
+        "camera_height_max": [8.0, 13.0],
+        "camera_angle_min": [78.0, 84.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [70.0, 95.0],
+        "focal_length_max": [135.0, 175.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "watermelon": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.26, 0.32],
+        "object_size_max": [0.42, 0.55],
+        "density_factor": [1.08, 1.30],
+        "min_distance_ratio": [0.60, 0.72],
+        "placement_attempts": [95, 145],
+        "camera_distance_min": [3.8, 5.5],
+        "camera_distance_max": [11.0, 16.5],
+        "camera_height_min": [2.5, 4.0],
+        "camera_height_max": [11.0, 16.5],
+        "camera_angle_min": [78.0, 84.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [55.0, 75.0],
+        "focal_length_max": [110.0, 145.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "pineapple": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.22, 0.28],
+        "object_size_max": [0.36, 0.48],
+        "density_factor": [1.12, 1.38],
+        "min_distance_ratio": [0.56, 0.68],
+        "placement_attempts": [95, 145],
+        "camera_distance_min": [3.2, 4.8],
+        "camera_distance_max": [10.5, 15.5],
+        "camera_height_min": [2.2, 3.5],
+        "camera_height_max": [10.5, 15.5],
+        "camera_angle_min": [78.0, 84.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [55.0, 75.0],
+        "focal_length_max": [110.0, 145.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "cherry": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.20, 0.20],
+        "object_size_max": [0.20, 0.28],
+        "density_factor": [1.20, 1.60],
+        "min_distance_ratio": [0.44, 0.56],
+        "placement_attempts": [95, 145],
+        "camera_distance_min": [1.6, 2.4],
+        "camera_distance_max": [7.0, 12.0],
+        "camera_height_min": [1.2, 2.0],
+        "camera_height_max": [7.0, 12.0],
+        "camera_angle_min": [82.0, 86.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [105.0, 140.0],
+        "focal_length_max": [160.0, 205.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "pear": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.20, 0.22],
+        "object_size_max": [0.30, 0.42],
+        "density_factor": [1.00, 1.25],
+        "min_distance_ratio": [0.52, 0.64],
+        "placement_attempts": [90, 140],
+        "camera_distance_min": [2.0, 3.2],
+        "camera_distance_max": [8.0, 13.0],
+        "camera_height_min": [1.6, 2.6],
+        "camera_height_max": [8.0, 13.0],
+        "camera_angle_min": [78.0, 84.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [70.0, 95.0],
+        "focal_length_max": [135.0, 175.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "avocado": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.20, 0.22],
+        "object_size_max": [0.30, 0.42],
+        "density_factor": [1.00, 1.25],
+        "min_distance_ratio": [0.52, 0.64],
+        "placement_attempts": [90, 140],
+        "camera_distance_min": [2.0, 3.2],
+        "camera_distance_max": [8.0, 13.0],
+        "camera_height_min": [1.6, 2.6],
+        "camera_height_max": [8.0, 13.0],
+        "camera_angle_min": [78.0, 84.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [70.0, 95.0],
+        "focal_length_max": [135.0, 175.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "pumpkin_squash": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.30, 0.36],
+        "object_size_max": [0.50, 0.65],
+        "density_factor": [1.05, 1.28],
+        "min_distance_ratio": [0.64, 0.76],
+        "placement_attempts": [95, 145],
+        "camera_distance_min": [4.8, 6.8],
+        "camera_distance_max": [13.0, 19.0],
+        "camera_height_min": [3.2, 5.0],
+        "camera_height_max": [14.0, 22.0],
+        "camera_angle_min": [78.0, 84.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [50.0, 70.0],
+        "focal_length_max": [105.0, 140.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "peach": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.20, 0.22],
+        "object_size_max": [0.30, 0.42],
+        "density_factor": [1.00, 1.25],
+        "min_distance_ratio": [0.52, 0.64],
+        "placement_attempts": [90, 140],
+        "camera_distance_min": [2.0, 3.2],
+        "camera_distance_max": [8.0, 13.0],
+        "camera_height_min": [1.6, 2.6],
+        "camera_height_max": [8.0, 13.0],
+        "camera_angle_min": [78.0, 84.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [70.0, 95.0],
+        "focal_length_max": [135.0, 175.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "burger": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.20, 0.22],
+        "object_size_max": [0.30, 0.40],
+        "density_factor": [1.00, 1.25],
+        "min_distance_ratio": [0.52, 0.64],
+        "placement_attempts": [95, 145],
+        "camera_distance_min": [2.2, 3.4],
+        "camera_distance_max": [8.5, 13.5],
+        "camera_height_min": [1.8, 2.8],
+        "camera_height_max": [8.5, 13.5],
+        "camera_angle_min": [78.0, 84.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [65.0, 90.0],
+        "focal_length_max": [125.0, 165.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "donut": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.20, 0.20],
+        "object_size_max": [0.20, 0.28],
+        "density_factor": [1.05, 1.35],
+        "min_distance_ratio": [0.48, 0.60],
+        "placement_attempts": [95, 145],
+        "camera_distance_min": [1.6, 2.4],
+        "camera_distance_max": [7.0, 12.0],
+        "camera_height_min": [1.2, 2.0],
+        "camera_height_max": [7.0, 12.0],
+        "camera_angle_min": [82.0, 86.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [90.0, 125.0],
+        "focal_length_max": [150.0, 195.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "sandwich": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.20, 0.22],
+        "object_size_max": [0.30, 0.40],
+        "density_factor": [1.00, 1.25],
+        "min_distance_ratio": [0.52, 0.64],
+        "placement_attempts": [95, 145],
+        "camera_distance_min": [2.2, 3.4],
+        "camera_distance_max": [8.5, 13.5],
+        "camera_height_min": [1.8, 2.8],
+        "camera_height_max": [8.5, 13.5],
+        "camera_angle_min": [78.0, 84.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [65.0, 90.0],
+        "focal_length_max": [125.0, 165.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "baguette": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.20, 0.22],
+        "object_size_max": [0.30, 0.40],
+        "density_factor": [1.05, 1.35],
+        "min_distance_ratio": [0.48, 0.60],
+        "placement_attempts": [95, 145],
+        "camera_distance_min": [2.0, 3.2],
+        "camera_distance_max": [8.0, 13.0],
+        "camera_height_min": [1.6, 2.6],
+        "camera_height_max": [8.0, 13.0],
+        "camera_angle_min": [80.0, 86.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [70.0, 95.0],
+        "focal_length_max": [135.0, 175.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "bread_loaf": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.20, 0.22],
+        "object_size_max": [0.30, 0.40],
+        "density_factor": [1.00, 1.25],
+        "min_distance_ratio": [0.52, 0.64],
+        "placement_attempts": [95, 145],
+        "camera_distance_min": [2.2, 3.4],
+        "camera_distance_max": [8.5, 13.5],
+        "camera_height_min": [1.8, 2.8],
+        "camera_height_max": [8.5, 13.5],
+        "camera_angle_min": [78.0, 84.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [65.0, 90.0],
+        "focal_length_max": [125.0, 165.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "croissant": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.20, 0.20],
+        "object_size_max": [0.24, 0.34],
+        "density_factor": [1.05, 1.35],
+        "min_distance_ratio": [0.48, 0.60],
+        "placement_attempts": [95, 145],
+        "camera_distance_min": [1.8, 2.6],
+        "camera_distance_max": [7.5, 12.5],
+        "camera_height_min": [1.4, 2.2],
+        "camera_height_max": [7.5, 12.5],
+        "camera_angle_min": [82.0, 86.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [85.0, 115.0],
+        "focal_length_max": [145.0, 185.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "muffin": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.20, 0.20],
+        "object_size_max": [0.24, 0.34],
+        "density_factor": [1.05, 1.35],
+        "min_distance_ratio": [0.48, 0.60],
+        "placement_attempts": [95, 145],
+        "camera_distance_min": [1.8, 2.6],
+        "camera_distance_max": [7.5, 12.5],
+        "camera_height_min": [1.4, 2.2],
+        "camera_height_max": [7.5, 12.5],
+        "camera_angle_min": [82.0, 86.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [85.0, 115.0],
+        "focal_length_max": [145.0, 185.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "bagel": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.20, 0.20],
+        "object_size_max": [0.20, 0.28],
+        "density_factor": [1.10, 1.40],
+        "min_distance_ratio": [0.46, 0.58],
+        "placement_attempts": [95, 145],
+        "camera_distance_min": [1.6, 2.4],
+        "camera_distance_max": [7.0, 12.0],
+        "camera_height_min": [1.2, 2.0],
+        "camera_height_max": [7.0, 12.0],
+        "camera_angle_min": [82.0, 86.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [95.0, 130.0],
+        "focal_length_max": [155.0, 200.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "pretzel": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.20, 0.20],
+        "object_size_max": [0.20, 0.28],
+        "density_factor": [1.10, 1.40],
+        "min_distance_ratio": [0.46, 0.58],
+        "placement_attempts": [95, 145],
+        "camera_distance_min": [1.6, 2.4],
+        "camera_distance_max": [7.0, 12.0],
+        "camera_height_min": [1.2, 2.0],
+        "camera_height_max": [7.0, 12.0],
+        "camera_angle_min": [82.0, 86.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [95.0, 130.0],
+        "focal_length_max": [155.0, 200.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "candy": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.20, 0.20],
+        "object_size_max": [0.20, 0.28],
+        "density_factor": [1.25, 1.70],
+        "min_distance_ratio": [0.42, 0.54],
+        "placement_attempts": [95, 145],
+        "camera_distance_min": [1.6, 2.4],
+        "camera_distance_max": [7.0, 12.0],
+        "camera_height_min": [1.2, 2.0],
+        "camera_height_max": [7.0, 12.0],
+        "camera_angle_min": [82.0, 86.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [110.0, 145.0],
+        "focal_length_max": [165.0, 210.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "egg": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.20, 0.20],
+        "object_size_max": [0.26, 0.36],
+        "density_factor": [1.15, 1.50],
+        "min_distance_ratio": [0.46, 0.58],
+        "placement_attempts": [95, 145],
+        "camera_distance_min": [1.8, 2.6],
+        "camera_distance_max": [7.5, 12.5],
+        "camera_height_min": [1.4, 2.2],
+        "camera_height_max": [7.5, 12.5],
+        "camera_angle_min": [82.0, 86.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [95.0, 130.0],
+        "focal_length_max": [155.0, 200.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "sushi": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.20, 0.20],
+        "object_size_max": [0.20, 0.28],
+        "density_factor": [1.10, 1.45],
+        "min_distance_ratio": [0.46, 0.58],
+        "placement_attempts": [95, 145],
+        "camera_distance_min": [1.6, 2.4],
+        "camera_distance_max": [7.0, 12.0],
+        "camera_height_min": [1.2, 2.0],
+        "camera_height_max": [7.0, 12.0],
+        "camera_angle_min": [82.0, 86.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [95.0, 130.0],
+        "focal_length_max": [155.0, 200.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "ice_cream": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.20, 0.20],
+        "object_size_max": [0.24, 0.34],
+        "density_factor": [1.10, 1.45],
+        "min_distance_ratio": [0.46, 0.58],
+        "placement_attempts": [95, 145],
+        "camera_distance_min": [1.8, 2.6],
+        "camera_distance_max": [7.5, 12.5],
+        "camera_height_min": [1.4, 2.2],
+        "camera_height_max": [7.5, 12.5],
+        "camera_angle_min": [82.0, 86.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [95.0, 130.0],
+        "focal_length_max": [155.0, 200.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "cake": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.22, 0.28],
+        "object_size_max": [0.36, 0.48],
+        "density_factor": [1.10, 1.35],
+        "min_distance_ratio": [0.56, 0.68],
+        "placement_attempts": [100, 150],
+        "camera_distance_min": [3.6, 5.2],
+        "camera_distance_max": [11.0, 16.5],
+        "camera_height_min": [2.4, 3.8],
+        "camera_height_max": [12.0, 18.0],
+        "camera_angle_min": [78.0, 84.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [60.0, 85.0],
+        "focal_length_max": [120.0, 160.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "pizza": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.20, 0.26],
+        "object_size_max": [0.34, 0.45],
+        "density_factor": [1.05, 1.30],
+        "min_distance_ratio": [0.54, 0.66],
+        "placement_attempts": [100, 150],
+        "camera_distance_min": [3.6, 5.2],
+        "camera_distance_max": [11.0, 16.5],
+        "camera_height_min": [2.4, 3.8],
+        "camera_height_max": [12.0, 18.0],
+        "camera_angle_min": [78.0, 84.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [60.0, 85.0],
+        "focal_length_max": [120.0, 160.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "table": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.38, 0.48],
+        "object_size_max": [0.60, 0.78],
+        "density_factor": [0.95, 1.10],
+        "min_distance_ratio": [0.74, 0.86],
+        "placement_attempts": [130, 200],
+        "camera_distance_min": [10.0, 14.5],
+        "camera_distance_max": [20.0, 30.0],
+        "camera_height_min": [8.0, 12.0],
+        "camera_height_max": [18.0, 30.0],
+        "camera_angle_min": [78.0, 84.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [32.0, 45.0],
+        "focal_length_max": [80.0, 105.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "chair": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.24, 0.30],
+        "object_size_max": [0.40, 0.52],
+        "density_factor": [1.12, 1.35],
+        "min_distance_ratio": [0.58, 0.70],
+        "placement_attempts": [110, 170],
+        "camera_distance_min": [6.0, 8.5],
+        "camera_distance_max": [15.0, 22.0],
+        "camera_height_min": [4.0, 6.5],
+        "camera_height_max": [15.0, 22.0],
+        "camera_angle_min": [72.0, 78.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [45.0, 60.0],
+        "focal_length_max": [95.0, 125.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "sofa": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.40, 0.52],
+        "object_size_max": [0.65, 0.85],
+        "density_factor": [0.92, 1.08],
+        "min_distance_ratio": [0.78, 0.90],
+        "placement_attempts": [140, 220],
+        "camera_distance_min": [10.0, 14.5],
+        "camera_distance_max": [20.0, 30.0],
+        "camera_height_min": [8.0, 12.0],
+        "camera_height_max": [20.0, 32.0],
+        "camera_angle_min": [75.0, 82.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [32.0, 45.0],
+        "focal_length_max": [80.0, 105.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "bench": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.30, 0.38],
+        "object_size_max": [0.50, 0.65],
+        "density_factor": [1.02, 1.22],
+        "min_distance_ratio": [0.66, 0.78],
+        "placement_attempts": [120, 190],
+        "camera_distance_min": [8.0, 11.0],
+        "camera_distance_max": [18.0, 26.0],
+        "camera_height_min": [6.0, 9.0],
+        "camera_height_max": [16.0, 26.0],
+        "camera_angle_min": [72.0, 78.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [38.0, 55.0],
+        "focal_length_max": [90.0, 120.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "cabinet": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.34, 0.42],
+        "object_size_max": [0.55, 0.72],
+        "density_factor": [0.95, 1.12],
+        "min_distance_ratio": [0.72, 0.84],
+        "placement_attempts": [130, 200],
+        "camera_distance_min": [9.0, 13.0],
+        "camera_distance_max": [18.0, 27.0],
+        "camera_height_min": [6.5, 10.0],
+        "camera_height_max": [18.0, 28.0],
+        "camera_angle_min": [72.0, 78.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [35.0, 50.0],
+        "focal_length_max": [85.0, 110.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "bookshelf": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.36, 0.45],
+        "object_size_max": [0.58, 0.75],
+        "density_factor": [0.95, 1.12],
+        "min_distance_ratio": [0.74, 0.86],
+        "placement_attempts": [140, 220],
+        "camera_distance_min": [10.0, 14.5],
+        "camera_distance_max": [20.0, 30.0],
+        "camera_height_min": [8.0, 12.0],
+        "camera_height_max": [20.0, 32.0],
+        "camera_angle_min": [72.0, 78.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [32.0, 45.0],
+        "focal_length_max": [80.0, 105.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "bed": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.42, 0.52],
+        "object_size_max": [0.70, 0.90],
+        "density_factor": [0.90, 1.06],
+        "min_distance_ratio": [0.80, 0.92],
+        "placement_attempts": [160, 260],
+        "camera_distance_min": [11.0, 16.0],
+        "camera_distance_max": [22.0, 34.0],
+        "camera_height_min": [10.0, 14.0],
+        "camera_height_max": [24.0, 38.0],
+        "camera_angle_min": [78.0, 84.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [28.0, 40.0],
+        "focal_length_max": [75.0, 100.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "piano": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.38, 0.48],
+        "object_size_max": [0.62, 0.80],
+        "density_factor": [0.92, 1.08],
+        "min_distance_ratio": [0.78, 0.90],
+        "placement_attempts": [150, 240],
+        "camera_distance_min": [10.0, 14.5],
+        "camera_distance_max": [20.0, 30.0],
+        "camera_height_min": [8.0, 12.0],
+        "camera_height_max": [20.0, 32.0],
+        "camera_angle_min": [72.0, 78.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [32.0, 45.0],
+        "focal_length_max": [80.0, 105.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "file": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.34, 0.42],
+        "object_size_max": [0.55, 0.72],
+        "density_factor": [0.95, 1.15],
+        "min_distance_ratio": [0.70, 0.82],
+        "placement_attempts": [140, 220],
+        "camera_distance_min": [9.0, 13.0],
+        "camera_distance_max": [18.0, 27.0],
+        "camera_height_min": [6.5, 10.0],
+        "camera_height_max": [18.0, 28.0],
+        "camera_angle_min": [72.0, 78.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [35.0, 50.0],
+        "focal_length_max": [85.0, 110.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "bathtub": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.40, 0.50],
+        "object_size_max": [0.65, 0.85],
+        "density_factor": [0.92, 1.08],
+        "min_distance_ratio": [0.78, 0.90],
+        "placement_attempts": [150, 240],
+        "camera_distance_min": [10.0, 14.5],
+        "camera_distance_max": [20.0, 30.0],
+        "camera_height_min": [8.0, 12.0],
+        "camera_height_max": [20.0, 32.0],
+        "camera_angle_min": [75.0, 82.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [32.0, 45.0],
+        "focal_length_max": [80.0, 105.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "dishwasher": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.32, 0.40],
+        "object_size_max": [0.52, 0.68],
+        "density_factor": [0.95, 1.15],
+        "min_distance_ratio": [0.70, 0.82],
+        "placement_attempts": [130, 200],
+        "camera_distance_min": [8.0, 11.5],
+        "camera_distance_max": [16.5, 24.0],
+        "camera_height_min": [6.0, 9.0],
+        "camera_height_max": [16.0, 24.0],
+        "camera_angle_min": [72.0, 78.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [38.0, 55.0],
+        "focal_length_max": [90.0, 120.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "stove": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.28, 0.34],
+        "object_size_max": [0.45, 0.60],
+        "density_factor": [1.00, 1.22],
+        "min_distance_ratio": [0.66, 0.78],
+        "placement_attempts": [120, 190],
+        "camera_distance_min": [7.0, 10.0],
+        "camera_distance_max": [14.5, 21.5],
+        "camera_height_min": [5.0, 7.5],
+        "camera_height_max": [14.0, 22.0],
+        "camera_angle_min": [72.0, 78.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [40.0, 55.0],
+        "focal_length_max": [90.0, 120.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "washer": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.28, 0.34],
+        "object_size_max": [0.45, 0.60],
+        "density_factor": [1.00, 1.22],
+        "min_distance_ratio": [0.66, 0.78],
+        "placement_attempts": [120, 190],
+        "camera_distance_min": [7.0, 10.0],
+        "camera_distance_max": [14.5, 21.5],
+        "camera_height_min": [5.0, 7.5],
+        "camera_height_max": [14.0, 22.0],
+        "camera_angle_min": [72.0, 78.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [40.0, 55.0],
+        "focal_length_max": [90.0, 120.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "laptop": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.22, 0.28],
+        "object_size_max": [0.36, 0.48],
+        "density_factor": [1.15, 1.45],
+        "min_distance_ratio": [0.52, 0.64],
+        "placement_attempts": [110, 170],
+        "camera_distance_min": [3.0, 4.5],
+        "camera_distance_max": [10.0, 14.5],
+        "camera_height_min": [2.0, 3.2],
+        "camera_height_max": [10.0, 15.0],
+        "camera_angle_min": [75.0, 82.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [60.0, 85.0],
+        "focal_length_max": [120.0, 160.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "computer keyboard": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.20, 0.24],
+        "object_size_max": [0.30, 0.40],
+        "density_factor": [1.20, 1.55],
+        "min_distance_ratio": [0.50, 0.62],
+        "placement_attempts": [110, 170],
+        "camera_distance_min": [2.6, 4.0],
+        "camera_distance_max": [9.0, 13.5],
+        "camera_height_min": [2.0, 3.0],
+        "camera_height_max": [9.0, 13.5],
+        "camera_angle_min": [80.0, 86.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [70.0, 95.0],
+        "focal_length_max": [135.0, 175.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "microwave": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.26, 0.32],
+        "object_size_max": [0.42, 0.55],
+        "density_factor": [1.05, 1.28],
+        "min_distance_ratio": [0.60, 0.72],
+        "placement_attempts": [120, 190],
+        "camera_distance_min": [6.0, 8.5],
+        "camera_distance_max": [13.0, 19.0],
+        "camera_height_min": [4.2, 6.5],
+        "camera_height_max": [14.0, 22.0],
+        "camera_angle_min": [72.0, 78.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [45.0, 60.0],
+        "focal_length_max": [95.0, 125.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "telephone": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.20, 0.22],
+        "object_size_max": [0.30, 0.40],
+        "density_factor": [1.15, 1.50],
+        "min_distance_ratio": [0.50, 0.62],
+        "placement_attempts": [110, 170],
+        "camera_distance_min": [2.4, 3.6],
+        "camera_distance_max": [9.0, 13.5],
+        "camera_height_min": [1.8, 2.8],
+        "camera_height_max": [9.0, 13.5],
+        "camera_angle_min": [78.0, 84.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [70.0, 95.0],
+        "focal_length_max": [135.0, 175.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "cellular telephone": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.20, 0.20],
+        "object_size_max": [0.20, 0.30],
+        "density_factor": [1.25, 1.70],
+        "min_distance_ratio": [0.42, 0.54],
+        "placement_attempts": [110, 170],
+        "camera_distance_min": [1.6, 2.4],
+        "camera_distance_max": [7.0, 12.0],
+        "camera_height_min": [1.2, 2.0],
+        "camera_height_max": [7.0, 12.0],
+        "camera_angle_min": [82.0, 86.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [110.0, 145.0],
+        "focal_length_max": [165.0, 210.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "loudspeaker": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.22, 0.28],
+        "object_size_max": [0.36, 0.48],
+        "density_factor": [1.12, 1.42],
+        "min_distance_ratio": [0.54, 0.66],
+        "placement_attempts": [110, 170],
+        "camera_distance_min": [3.2, 4.8],
+        "camera_distance_max": [10.5, 15.5],
+        "camera_height_min": [2.2, 3.5],
+        "camera_height_max": [10.5, 15.5],
+        "camera_angle_min": [75.0, 82.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [60.0, 85.0],
+        "focal_length_max": [120.0, 160.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "camera": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.20, 0.20],
+        "object_size_max": [0.24, 0.34],
+        "density_factor": [1.20, 1.60],
+        "min_distance_ratio": [0.48, 0.60],
+        "placement_attempts": [110, 170],
+        "camera_distance_min": [2.0, 3.2],
+        "camera_distance_max": [8.0, 13.0],
+        "camera_height_min": [1.6, 2.6],
+        "camera_height_max": [8.0, 13.0],
+        "camera_angle_min": [80.0, 86.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [80.0, 110.0],
+        "focal_length_max": [145.0, 185.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "remote control": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.20, 0.20],
+        "object_size_max": [0.20, 0.30],
+        "density_factor": [1.25, 1.70],
+        "min_distance_ratio": [0.42, 0.54],
+        "placement_attempts": [110, 170],
+        "camera_distance_min": [1.6, 2.4],
+        "camera_distance_max": [7.0, 12.0],
+        "camera_height_min": [1.2, 2.0],
+        "camera_height_max": [7.0, 12.0],
+        "camera_angle_min": [82.0, 86.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [110.0, 145.0],
+        "focal_length_max": [165.0, 210.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "earphone": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.20, 0.20],
+        "object_size_max": [0.20, 0.28],
+        "density_factor": [1.35, 1.80],
+        "min_distance_ratio": [0.40, 0.52],
+        "placement_attempts": [110, 170],
+        "camera_distance_min": [1.6, 2.4],
+        "camera_distance_max": [7.0, 12.0],
+        "camera_height_min": [1.2, 2.0],
+        "camera_height_max": [7.0, 12.0],
+        "camera_angle_min": [84.0, 87.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [120.0, 155.0],
+        "focal_length_max": [175.0, 220.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "display": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.30, 0.36],
+        "object_size_max": [0.50, 0.65],
+        "density_factor": [1.00, 1.18],
+        "min_distance_ratio": [0.68, 0.80],
+        "placement_attempts": [130, 200],
+        "camera_distance_min": [8.0, 11.5],
+        "camera_distance_max": [16.5, 24.0],
+        "camera_height_min": [6.0, 9.0],
+        "camera_height_max": [16.0, 24.0],
+        "camera_angle_min": [72.0, 78.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [38.0, 55.0],
+        "focal_length_max": [90.0, 120.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "printer": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.26, 0.32],
+        "object_size_max": [0.42, 0.55],
+        "density_factor": [1.05, 1.25],
+        "min_distance_ratio": [0.62, 0.74],
+        "placement_attempts": [130, 200],
+        "camera_distance_min": [7.5, 10.5],
+        "camera_distance_max": [15.5, 22.5],
+        "camera_height_min": [5.5, 8.0],
+        "camera_height_max": [16.0, 24.0],
+        "camera_angle_min": [72.0, 78.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [40.0, 55.0],
+        "focal_length_max": [90.0, 120.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "microphone": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.20, 0.22],
+        "object_size_max": [0.30, 0.40],
+        "density_factor": [1.20, 1.55],
+        "min_distance_ratio": [0.50, 0.62],
+        "placement_attempts": [110, 170],
+        "camera_distance_min": [2.4, 3.6],
+        "camera_distance_max": [9.0, 13.5],
+        "camera_height_min": [1.8, 2.8],
+        "camera_height_max": [9.0, 13.5],
+        "camera_angle_min": [78.0, 84.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [70.0, 95.0],
+        "focal_length_max": [135.0, 175.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "rifle": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.20, 0.24],
+        "object_size_max": [0.30, 0.42],
+        "density_factor": [1.10, 1.45],
+        "min_distance_ratio": [0.52, 0.64],
+        "placement_attempts": [120, 190],
+        "camera_distance_min": [2.4, 3.8],
+        "camera_distance_max": [9.0, 14.5],
+        "camera_height_min": [2.0, 3.2],
+        "camera_height_max": [9.0, 14.5],
+        "camera_angle_min": [80.0, 86.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [70.0, 95.0],
+        "focal_length_max": [135.0, 175.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "pistol": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.20, 0.20],
+        "object_size_max": [0.20, 0.30],
+        "density_factor": [1.25, 1.70],
+        "min_distance_ratio": [0.42, 0.54],
+        "placement_attempts": [120, 190],
+        "camera_distance_min": [1.6, 2.4],
+        "camera_distance_max": [7.0, 12.0],
+        "camera_height_min": [1.2, 2.0],
+        "camera_height_max": [7.0, 12.0],
+        "camera_angle_min": [84.0, 87.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [110.0, 145.0],
+        "focal_length_max": [165.0, 210.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "knife": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.20, 0.20],
+        "object_size_max": [0.20, 0.30],
+        "density_factor": [1.20, 1.60],
+        "min_distance_ratio": [0.44, 0.56],
+        "placement_attempts": [120, 190],
+        "camera_distance_min": [1.6, 2.4],
+        "camera_distance_max": [7.0, 12.0],
+        "camera_height_min": [1.2, 2.0],
+        "camera_height_max": [7.0, 12.0],
+        "camera_angle_min": [84.0, 87.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [110.0, 145.0],
+        "focal_length_max": [165.0, 210.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "guitar": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.28, 0.34],
+        "object_size_max": [0.45, 0.60],
+        "density_factor": [1.02, 1.22],
+        "min_distance_ratio": [0.66, 0.78],
+        "placement_attempts": [130, 200],
+        "camera_distance_min": [7.0, 10.0],
+        "camera_distance_max": [14.5, 21.5],
+        "camera_height_min": [5.0, 7.5],
+        "camera_height_max": [14.0, 22.0],
+        "camera_angle_min": [72.0, 78.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [40.0, 55.0],
+        "focal_length_max": [90.0, 120.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "bat": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.24, 0.30],
+        "object_size_max": [0.40, 0.52],
+        "density_factor": [1.10, 1.40],
+        "min_distance_ratio": [0.56, 0.68],
+        "placement_attempts": [120, 190],
+        "camera_distance_min": [4.2, 6.5],
+        "camera_distance_max": [12.0, 18.0],
+        "camera_height_min": [3.0, 4.8],
+        "camera_height_max": [12.0, 18.0],
+        "camera_angle_min": [78.0, 84.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [55.0, 75.0],
+        "focal_length_max": [110.0, 145.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "pot": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.22, 0.28],
+        "object_size_max": [0.36, 0.48],
+        "density_factor": [1.12, 1.42],
+        "min_distance_ratio": [0.54, 0.66],
+        "placement_attempts": [120, 190],
+        "camera_distance_min": [3.8, 5.8],
+        "camera_distance_max": [11.0, 16.5],
+        "camera_height_min": [2.6, 4.0],
+        "camera_height_max": [12.0, 18.0],
+        "camera_angle_min": [75.0, 82.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [60.0, 85.0],
+        "focal_length_max": [120.0, 160.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "jar": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.22, 0.28],
+        "object_size_max": [0.36, 0.48],
+        "density_factor": [1.12, 1.42],
+        "min_distance_ratio": [0.54, 0.66],
+        "placement_attempts": [120, 190],
+        "camera_distance_min": [3.6, 5.5],
+        "camera_distance_max": [10.5, 15.5],
+        "camera_height_min": [2.4, 3.8],
+        "camera_height_max": [11.0, 16.5],
+        "camera_angle_min": [75.0, 82.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [60.0, 85.0],
+        "focal_length_max": [120.0, 160.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "bottle": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.22, 0.28],
+        "object_size_max": [0.36, 0.48],
+        "density_factor": [1.12, 1.42],
+        "min_distance_ratio": [0.54, 0.66],
+        "placement_attempts": [120, 190],
+        "camera_distance_min": [3.6, 5.5],
+        "camera_distance_max": [10.5, 15.5],
+        "camera_height_min": [2.4, 3.8],
+        "camera_height_max": [11.0, 16.5],
+        "camera_angle_min": [75.0, 82.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [60.0, 85.0],
+        "focal_length_max": [120.0, 160.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "mug": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.20, 0.22],
+        "object_size_max": [0.30, 0.40],
+        "density_factor": [1.18, 1.55],
+        "min_distance_ratio": [0.50, 0.62],
+        "placement_attempts": [120, 190],
+        "camera_distance_min": [2.4, 3.6],
+        "camera_distance_max": [9.0, 13.5],
+        "camera_height_min": [1.8, 2.8],
+        "camera_height_max": [9.0, 13.5],
+        "camera_angle_min": [78.0, 84.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [70.0, 95.0],
+        "focal_length_max": [135.0, 175.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "bowl": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.20, 0.22],
+        "object_size_max": [0.30, 0.40],
+        "density_factor": [1.18, 1.55],
+        "min_distance_ratio": [0.50, 0.62],
+        "placement_attempts": [120, 190],
+        "camera_distance_min": [2.8, 4.0],
+        "camera_distance_max": [9.5, 14.5],
+        "camera_height_min": [2.0, 3.0],
+        "camera_height_max": [9.5, 14.5],
+        "camera_angle_min": [78.0, 84.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [70.0, 95.0],
+        "focal_length_max": [135.0, 175.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "can": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.20, 0.22],
+        "object_size_max": [0.30, 0.42],
+        "density_factor": [1.15, 1.50],
+        "min_distance_ratio": [0.50, 0.62],
+        "placement_attempts": [120, 190],
+        "camera_distance_min": [2.8, 4.0],
+        "camera_distance_max": [9.5, 14.5],
+        "camera_height_min": [2.0, 3.0],
+        "camera_height_max": [9.5, 14.5],
+        "camera_angle_min": [78.0, 84.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [70.0, 95.0],
+        "focal_length_max": [135.0, 175.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "cup": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.20, 0.22],
+        "object_size_max": [0.30, 0.40],
+        "density_factor": [1.18, 1.55],
+        "min_distance_ratio": [0.50, 0.62],
+        "placement_attempts": [120, 190],
+        "camera_distance_min": [3.2, 4.8],
+        "camera_distance_max": [10.5, 15.5],
+        "camera_height_min": [2.2, 3.5],
+        "camera_height_max": [10.5, 15.5],
+        "camera_angle_min": [78.0, 84.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [70.0, 95.0],
+        "focal_length_max": [135.0, 175.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "plate": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.20, 0.22],
+        "object_size_max": [0.30, 0.40],
+        "density_factor": [1.10, 1.45],
+        "min_distance_ratio": [0.50, 0.62],
+        "placement_attempts": [120, 190],
+        "camera_distance_min": [2.2, 3.4],
+        "camera_distance_max": [8.5, 13.5],
+        "camera_height_min": [1.6, 2.6],
+        "camera_height_max": [8.5, 13.5],
+        "camera_angle_min": [82.0, 86.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [80.0, 110.0],
+        "focal_length_max": [145.0, 185.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "bag": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.24, 0.30],
+        "object_size_max": [0.40, 0.52],
+        "density_factor": [1.12, 1.35],
+        "min_distance_ratio": [0.58, 0.70],
+        "placement_attempts": [120, 190],
+        "camera_distance_min": [4.8, 6.8],
+        "camera_distance_max": [13.0, 19.0],
+        "camera_height_min": [3.2, 5.0],
+        "camera_height_max": [14.0, 22.0],
+        "camera_angle_min": [75.0, 82.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [55.0, 75.0],
+        "focal_length_max": [110.0, 145.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "mailbox": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.24, 0.30],
+        "object_size_max": [0.40, 0.52],
+        "density_factor": [1.12, 1.35],
+        "min_distance_ratio": [0.58, 0.70],
+        "placement_attempts": [130, 200],
+        "camera_distance_min": [4.8, 6.8],
+        "camera_distance_max": [13.0, 19.0],
+        "camera_height_min": [3.2, 5.0],
+        "camera_height_max": [14.0, 22.0],
+        "camera_angle_min": [75.0, 82.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [55.0, 75.0],
+        "focal_length_max": [110.0, 145.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "birdhouse": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.22, 0.28],
+        "object_size_max": [0.36, 0.48],
+        "density_factor": [1.15, 1.45],
+        "min_distance_ratio": [0.54, 0.66],
+        "placement_attempts": [120, 190],
+        "camera_distance_min": [4.2, 6.2],
+        "camera_distance_max": [12.0, 17.0],
+        "camera_height_min": [3.0, 4.8],
+        "camera_height_max": [12.0, 18.0],
+        "camera_angle_min": [75.0, 82.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [60.0, 85.0],
+        "focal_length_max": [120.0, 160.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "ashcan": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.26, 0.32],
+        "object_size_max": [0.42, 0.55],
+        "density_factor": [1.05, 1.28],
+        "min_distance_ratio": [0.62, 0.74],
+        "placement_attempts": [130, 200],
+        "camera_distance_min": [7.0, 10.0],
+        "camera_distance_max": [14.5, 21.5],
+        "camera_height_min": [5.0, 7.5],
+        "camera_height_max": [14.0, 22.0],
+        "camera_angle_min": [72.0, 78.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [40.0, 55.0],
+        "focal_length_max": [90.0, 120.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "basket": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.24, 0.30],
+        "object_size_max": [0.40, 0.52],
+        "density_factor": [1.08, 1.32],
+        "min_distance_ratio": [0.60, 0.72],
+        "placement_attempts": [130, 200],
+        "camera_distance_min": [6.0, 8.5],
+        "camera_distance_max": [13.5, 19.5],
+        "camera_height_min": [4.2, 6.5],
+        "camera_height_max": [14.0, 22.0],
+        "camera_angle_min": [75.0, 82.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [45.0, 60.0],
+        "focal_length_max": [95.0, 125.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "shoe": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.20, 0.22],
+        "object_size_max": [0.30, 0.40],
+        "density_factor": [1.15, 1.50],
+        "min_distance_ratio": [0.50, 0.62],
+        "placement_attempts": [120, 190],
+        "camera_distance_min": [2.6, 4.0],
+        "camera_distance_max": [9.5, 14.5],
+        "camera_height_min": [2.0, 3.0],
+        "camera_height_max": [9.5, 14.5],
+        "camera_angle_min": [78.0, 84.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [70.0, 95.0],
+        "focal_length_max": [135.0, 175.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "T-shirt": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.22, 0.28],
+        "object_size_max": [0.36, 0.48],
+        "density_factor": [1.18, 1.50],
+        "min_distance_ratio": [0.52, 0.64],
+        "placement_attempts": [120, 190],
+        "camera_distance_min": [2.6, 4.0],
+        "camera_distance_max": [9.5, 14.5],
+        "camera_height_min": [2.0, 3.0],
+        "camera_height_max": [9.5, 14.5],
+        "camera_angle_min": [78.0, 84.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [70.0, 95.0],
+        "focal_length_max": [135.0, 175.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "trousers": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.22, 0.28],
+        "object_size_max": [0.36, 0.48],
+        "density_factor": [1.18, 1.50],
+        "min_distance_ratio": [0.52, 0.64],
+        "placement_attempts": [120, 190],
+        "camera_distance_min": [3.0, 4.5],
+        "camera_distance_max": [10.0, 14.5],
+        "camera_height_min": [2.0, 3.2],
+        "camera_height_max": [10.0, 15.0],
+        "camera_angle_min": [78.0, 84.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [65.0, 90.0],
+        "focal_length_max": [125.0, 165.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "glasses": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.20, 0.20],
+        "object_size_max": [0.20, 0.28],
+        "density_factor": [1.35, 1.80],
+        "min_distance_ratio": [0.40, 0.52],
+        "placement_attempts": [120, 190],
+        "camera_distance_min": [1.6, 2.4],
+        "camera_distance_max": [7.0, 12.0],
+        "camera_height_min": [1.2, 2.0],
+        "camera_height_max": [7.0, 12.0],
+        "camera_angle_min": [84.0, 87.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [120.0, 155.0],
+        "focal_length_max": [175.0, 220.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "cap": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.20, 0.22],
+        "object_size_max": [0.30, 0.40],
+        "density_factor": [1.15, 1.50],
+        "min_distance_ratio": [0.50, 0.62],
+        "placement_attempts": [120, 190],
+        "camera_distance_min": [2.2, 3.4],
+        "camera_distance_max": [8.5, 13.5],
+        "camera_height_min": [1.6, 2.6],
+        "camera_height_max": [8.5, 13.5],
+        "camera_angle_min": [78.0, 84.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [70.0, 95.0],
+        "focal_length_max": [135.0, 175.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "backpack": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.24, 0.30],
+        "object_size_max": [0.40, 0.52],
+        "density_factor": [1.10, 1.35],
+        "min_distance_ratio": [0.58, 0.70],
+        "placement_attempts": [130, 200],
+        "camera_distance_min": [4.8, 6.8],
+        "camera_distance_max": [13.0, 19.0],
+        "camera_height_min": [3.2, 5.0],
+        "camera_height_max": [14.0, 22.0],
+        "camera_angle_min": [75.0, 82.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [55.0, 75.0],
+        "focal_length_max": [110.0, 145.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "tie": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.20, 0.20],
+        "object_size_max": [0.20, 0.30],
+        "density_factor": [1.25, 1.70],
+        "min_distance_ratio": [0.42, 0.54],
+        "placement_attempts": [120, 190],
+        "camera_distance_min": [1.6, 2.4],
+        "camera_distance_max": [7.0, 12.0],
+        "camera_height_min": [1.2, 2.0],
+        "camera_height_max": [7.0, 12.0],
+        "camera_angle_min": [84.0, 87.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [110.0, 145.0],
+        "focal_length_max": [165.0, 210.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "sock": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.20, 0.20],
+        "object_size_max": [0.20, 0.30],
+        "density_factor": [1.25, 1.70],
+        "min_distance_ratio": [0.42, 0.54],
+        "placement_attempts": [120, 190],
+        "camera_distance_min": [1.6, 2.4],
+        "camera_distance_max": [7.0, 12.0],
+        "camera_height_min": [1.2, 2.0],
+        "camera_height_max": [7.0, 12.0],
+        "camera_angle_min": [84.0, 87.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [110.0, 145.0],
+        "focal_length_max": [165.0, 210.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "helmet": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.22, 0.28],
+        "object_size_max": [0.36, 0.48],
+        "density_factor": [1.12, 1.42],
+        "min_distance_ratio": [0.54, 0.66],
+        "placement_attempts": [120, 190],
+        "camera_distance_min": [3.0, 4.5],
+        "camera_distance_max": [10.0, 14.5],
+        "camera_height_min": [2.0, 3.2],
+        "camera_height_max": [10.0, 15.0],
+        "camera_angle_min": [78.0, 84.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [65.0, 90.0],
+        "focal_length_max": [125.0, 165.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "hat": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.20, 0.22],
+        "object_size_max": [0.30, 0.40],
+        "density_factor": [1.15, 1.50],
+        "min_distance_ratio": [0.50, 0.62],
+        "placement_attempts": [120, 190],
+        "camera_distance_min": [2.2, 3.4],
+        "camera_distance_max": [8.5, 13.5],
+        "camera_height_min": [1.6, 2.6],
+        "camera_height_max": [8.5, 13.5],
+        "camera_angle_min": [78.0, 84.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [70.0, 95.0],
+        "focal_length_max": [135.0, 175.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "glove": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.20, 0.20],
+        "object_size_max": [0.20, 0.30],
+        "density_factor": [1.25, 1.70],
+        "min_distance_ratio": [0.42, 0.54],
+        "placement_attempts": [120, 190],
+        "camera_distance_min": [1.6, 2.4],
+        "camera_distance_max": [7.0, 12.0],
+        "camera_height_min": [1.2, 2.0],
+        "camera_height_max": [7.0, 12.0],
+        "camera_angle_min": [84.0, 87.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [110.0, 145.0],
+        "focal_length_max": [165.0, 210.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "faucet": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.20, 0.20],
+        "object_size_max": [0.24, 0.34],
+        "density_factor": [1.20, 1.60],
+        "min_distance_ratio": [0.48, 0.60],
+        "placement_attempts": [120, 190],
+        "camera_distance_min": [2.0, 3.2],
+        "camera_distance_max": [8.0, 13.0],
+        "camera_height_min": [1.6, 2.6],
+        "camera_height_max": [8.0, 13.0],
+        "camera_angle_min": [80.0, 86.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [80.0, 110.0],
+        "focal_length_max": [145.0, 185.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "lamp": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.28, 0.36],
+        "object_size_max": [0.45, 0.60],
+        "density_factor": [1.05, 1.28],
+        "min_distance_ratio": [0.52, 0.64],
+        "placement_attempts": [120, 190],
+        "camera_distance_min": [3.0, 4.5],
+        "camera_distance_max": [9.0, 13.0],
+        "camera_height_min": [2.2, 3.5],
+        "camera_height_max": [10.0, 14.5],
+        "camera_angle_min": [72.0, 78.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [50.0, 70.0],
+        "focal_length_max": [105.0, 140.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "hammer": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.20, 0.20],
+        "object_size_max": [0.20, 0.30],
+        "density_factor": [1.25, 1.70],
+        "min_distance_ratio": [0.42, 0.54],
+        "placement_attempts": [120, 190],
+        "camera_distance_min": [1.6, 2.4],
+        "camera_distance_max": [7.0, 12.0],
+        "camera_height_min": [1.2, 2.0],
+        "camera_height_max": [7.0, 12.0],
+        "camera_angle_min": [84.0, 87.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [110.0, 145.0],
+        "focal_length_max": [165.0, 210.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "pliers": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.20, 0.20],
+        "object_size_max": [0.20, 0.30],
+        "density_factor": [1.25, 1.70],
+        "min_distance_ratio": [0.42, 0.54],
+        "placement_attempts": [120, 190],
+        "camera_distance_min": [1.6, 2.4],
+        "camera_distance_max": [7.0, 12.0],
+        "camera_height_min": [1.2, 2.0],
+        "camera_height_max": [7.0, 12.0],
+        "camera_angle_min": [84.0, 87.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [110.0, 145.0],
+        "focal_length_max": [165.0, 210.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "screwdriver": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.20, 0.20],
+        "object_size_max": [0.20, 0.28],
+        "density_factor": [1.35, 1.80],
+        "min_distance_ratio": [0.40, 0.52],
+        "placement_attempts": [120, 190],
+        "camera_distance_min": [1.6, 2.4],
+        "camera_distance_max": [7.0, 12.0],
+        "camera_height_min": [1.2, 2.0],
+        "camera_height_max": [7.0, 12.0],
+        "camera_angle_min": [84.0, 87.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [120.0, 155.0],
+        "focal_length_max": [175.0, 220.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "wrench": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.20, 0.20],
+        "object_size_max": [0.20, 0.28],
+        "density_factor": [1.35, 1.80],
+        "min_distance_ratio": [0.40, 0.52],
+        "placement_attempts": [120, 190],
+        "camera_distance_min": [1.6, 2.4],
+        "camera_distance_max": [7.0, 12.0],
+        "camera_height_min": [1.2, 2.0],
+        "camera_height_max": [7.0, 12.0],
+        "camera_angle_min": [84.0, 87.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [120.0, 155.0],
+        "focal_length_max": [175.0, 220.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "saw": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.20, 0.20],
+        "object_size_max": [0.20, 0.28],
+        "density_factor": [1.35, 1.80],
+        "min_distance_ratio": [0.40, 0.52],
+        "placement_attempts": [120, 190],
+        "camera_distance_min": [1.6, 2.4],
+        "camera_distance_max": [7.0, 12.0],
+        "camera_height_min": [1.2, 2.0],
+        "camera_height_max": [7.0, 12.0],
+        "camera_angle_min": [84.0, 87.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [120.0, 155.0],
+        "focal_length_max": [175.0, 220.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "nail": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.20, 0.20],
+        "object_size_max": [0.20, 0.24],
+        "density_factor": [1.55, 2.00],
+        "min_distance_ratio": [0.38, 0.48],
+        "placement_attempts": [130, 210],
+        "camera_distance_min": [1.2, 2.0],
+        "camera_distance_max": [6.0, 10.5],
+        "camera_height_min": [0.9, 1.6],
+        "camera_height_max": [6.0, 10.5],
+        "camera_angle_min": [86.0, 87.5],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [135.0, 170.0],
+        "focal_length_max": [185.0, 230.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "screw": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.20, 0.20],
+        "object_size_max": [0.20, 0.24],
+        "density_factor": [1.55, 2.00],
+        "min_distance_ratio": [0.38, 0.48],
+        "placement_attempts": [130, 210],
+        "camera_distance_min": [1.2, 2.0],
+        "camera_distance_max": [6.0, 10.5],
+        "camera_height_min": [0.9, 1.6],
+        "camera_height_max": [6.0, 10.5],
+        "camera_angle_min": [86.0, 87.5],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [135.0, 170.0],
+        "focal_length_max": [185.0, 230.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "paper_clip": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.20, 0.20],
+        "object_size_max": [0.20, 0.24],
+        "density_factor": [1.55, 2.00],
+        "min_distance_ratio": [0.38, 0.48],
+        "placement_attempts": [130, 210],
+        "camera_distance_min": [1.2, 2.0],
+        "camera_distance_max": [6.0, 10.5],
+        "camera_height_min": [0.9, 1.6],
+        "camera_height_max": [6.0, 10.5],
+        "camera_angle_min": [86.0, 87.5],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [135.0, 170.0],
+        "focal_length_max": [185.0, 230.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "tape_roll": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.20, 0.20],
+        "object_size_max": [0.20, 0.28],
+        "density_factor": [1.35, 1.80],
+        "min_distance_ratio": [0.40, 0.52],
+        "placement_attempts": [120, 190],
+        "camera_distance_min": [1.6, 2.4],
+        "camera_distance_max": [7.0, 12.0],
+        "camera_height_min": [1.2, 2.0],
+        "camera_height_max": [7.0, 12.0],
+        "camera_angle_min": [84.0, 87.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [120.0, 155.0],
+        "focal_length_max": [175.0, 220.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "battery": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.20, 0.20],
+        "object_size_max": [0.20, 0.28],
+        "density_factor": [1.35, 1.80],
+        "min_distance_ratio": [0.40, 0.52],
+        "placement_attempts": [120, 190],
+        "camera_distance_min": [1.6, 2.4],
+        "camera_distance_max": [7.0, 12.0],
+        "camera_height_min": [1.2, 2.0],
+        "camera_height_max": [7.0, 12.0],
+        "camera_angle_min": [84.0, 87.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [120.0, 155.0],
+        "focal_length_max": [175.0, 220.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "pillow": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.22, 0.28],
+        "object_size_max": [0.36, 0.48],
+        "density_factor": [1.18, 1.50],
+        "min_distance_ratio": [0.52, 0.64],
+        "placement_attempts": [130, 210],
+        "camera_distance_min": [3.2, 4.8],
+        "camera_distance_max": [10.5, 15.5],
+        "camera_height_min": [2.2, 3.5],
+        "camera_height_max": [10.5, 15.5],
+        "camera_angle_min": [78.0, 84.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [65.0, 90.0],
+        "focal_length_max": [125.0, 165.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "clock": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.20, 0.20],
+        "object_size_max": [0.24, 0.34],
+        "density_factor": [1.20, 1.60],
+        "min_distance_ratio": [0.48, 0.60],
+        "placement_attempts": [120, 190],
+        "camera_distance_min": [2.0, 3.2],
+        "camera_distance_max": [8.0, 13.0],
+        "camera_height_min": [1.6, 2.6],
+        "camera_height_max": [8.0, 13.0],
+        "camera_angle_min": [80.0, 86.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [80.0, 110.0],
+        "focal_length_max": [145.0, 185.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "teddy_bear": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.20, 0.24],
+        "object_size_max": [0.34, 0.45],
+        "density_factor": [1.18, 1.50],
+        "min_distance_ratio": [0.52, 0.64],
+        "placement_attempts": [130, 210],
+        "camera_distance_min": [3.2, 4.8],
+        "camera_distance_max": [10.5, 15.5],
+        "camera_height_min": [2.2, 3.5],
+        "camera_height_max": [10.5, 15.5],
+        "camera_angle_min": [78.0, 84.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [65.0, 90.0],
+        "focal_length_max": [125.0, 165.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "ball": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.20, 0.20],
+        "object_size_max": [0.24, 0.34],
+        "density_factor": [1.25, 1.70],
+        "min_distance_ratio": [0.46, 0.58],
+        "placement_attempts": [120, 190],
+        "camera_distance_min": [2.0, 3.2],
+        "camera_distance_max": [8.0, 13.0],
+        "camera_height_min": [1.6, 2.6],
+        "camera_height_max": [8.0, 13.0],
+        "camera_angle_min": [80.0, 86.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [80.0, 110.0],
+        "focal_length_max": [145.0, 185.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "lego_brick": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.20, 0.20],
+        "object_size_max": [0.20, 0.24],
+        "density_factor": [1.55, 2.00],
+        "min_distance_ratio": [0.38, 0.48],
+        "placement_attempts": [130, 210],
+        "camera_distance_min": [1.2, 2.0],
+        "camera_distance_max": [6.0, 10.5],
+        "camera_height_min": [0.9, 1.6],
+        "camera_height_max": [6.0, 10.5],
+        "camera_angle_min": [86.0, 87.5],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [135.0, 170.0],
+        "focal_length_max": [185.0, 230.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "coin": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.20, 0.20],
+        "object_size_max": [0.20, 0.22],
+        "density_factor": [1.65, 2.10],
+        "min_distance_ratio": [0.36, 0.46],
+        "placement_attempts": [130, 210],
+        "camera_distance_min": [1.2, 2.0],
+        "camera_distance_max": [6.0, 10.5],
+        "camera_height_min": [0.9, 1.6],
+        "camera_height_max": [6.0, 10.5],
+        "camera_angle_min": [86.0, 87.5],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [150.0, 185.0],
+        "focal_length_max": [200.0, 245.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "bottle_cap": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.20, 0.20],
+        "object_size_max": [0.20, 0.24],
+        "density_factor": [1.55, 2.00],
+        "min_distance_ratio": [0.38, 0.48],
+        "placement_attempts": [130, 210],
+        "camera_distance_min": [1.2, 2.0],
+        "camera_distance_max": [6.0, 10.5],
+        "camera_height_min": [0.9, 1.6],
+        "camera_height_max": [6.0, 10.5],
+        "camera_angle_min": [86.0, 87.5],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [135.0, 170.0],
+        "focal_length_max": [185.0, 230.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "bead": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.20, 0.20],
+        "object_size_max": [0.20, 0.22],
+        "density_factor": [1.70, 2.20],
+        "min_distance_ratio": [0.34, 0.44],
+        "placement_attempts": [140, 220],
+        "camera_distance_min": [1.0, 1.8],
+        "camera_distance_max": [5.5, 10.0],
+        "camera_height_min": [0.8, 1.4],
+        "camera_height_max": [5.5, 10.0],
+        "camera_angle_min": [86.0, 87.5],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [155.0, 190.0],
+        "focal_length_max": [205.0, 250.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "button": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.20, 0.20],
+        "object_size_max": [0.20, 0.22],
+        "density_factor": [1.70, 2.20],
+        "min_distance_ratio": [0.34, 0.44],
+        "placement_attempts": [140, 220],
+        "camera_distance_min": [1.0, 1.8],
+        "camera_distance_max": [5.5, 10.0],
+        "camera_height_min": [0.8, 1.4],
+        "camera_height_max": [5.5, 10.0],
+        "camera_angle_min": [86.0, 87.5],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [155.0, 190.0],
+        "focal_length_max": [205.0, 250.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "toilet_paper": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.22, 0.28],
+        "object_size_max": [0.36, 0.48],
+        "density_factor": [1.18, 1.50],
+        "min_distance_ratio": [0.52, 0.64],
+        "placement_attempts": [130, 210],
+        "camera_distance_min": [3.2, 4.8],
+        "camera_distance_max": [10.5, 15.5],
+        "camera_height_min": [2.2, 3.5],
+        "camera_height_max": [10.5, 15.5],
+        "camera_angle_min": [78.0, 84.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [65.0, 90.0],
+        "focal_length_max": [125.0, 165.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "pencil": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.20, 0.20],
+        "object_size_max": [0.20, 0.28],
+        "density_factor": [1.35, 1.80],
+        "min_distance_ratio": [0.40, 0.52],
+        "placement_attempts": [120, 190],
+        "camera_distance_min": [1.6, 2.4],
+        "camera_distance_max": [7.0, 12.0],
+        "camera_height_min": [1.2, 2.0],
+        "camera_height_max": [7.0, 12.0],
+        "camera_angle_min": [84.0, 87.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [120.0, 155.0],
+        "focal_length_max": [175.0, 220.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "fork": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.20, 0.20],
+        "object_size_max": [0.20, 0.28],
+        "density_factor": [1.35, 1.80],
+        "min_distance_ratio": [0.40, 0.52],
+        "placement_attempts": [120, 190],
+        "camera_distance_min": [1.6, 2.4],
+        "camera_distance_max": [7.0, 12.0],
+        "camera_height_min": [1.2, 2.0],
+        "camera_height_max": [7.0, 12.0],
+        "camera_angle_min": [84.0, 87.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [120.0, 155.0],
+        "focal_length_max": [175.0, 220.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "key": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.20, 0.20],
+        "object_size_max": [0.20, 0.24],
+        "density_factor": [1.55, 2.00],
+        "min_distance_ratio": [0.38, 0.48],
+        "placement_attempts": [130, 210],
+        "camera_distance_min": [1.2, 2.0],
+        "camera_distance_max": [6.0, 10.5],
+        "camera_height_min": [0.9, 1.6],
+        "camera_height_max": [6.0, 10.5],
+        "camera_angle_min": [86.0, 87.5],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [135.0, 170.0],
+        "focal_length_max": [185.0, 230.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "spoon": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.20, 0.20],
+        "object_size_max": [0.20, 0.28],
+        "density_factor": [1.35, 1.80],
+        "min_distance_ratio": [0.40, 0.52],
+        "placement_attempts": [120, 190],
+        "camera_distance_min": [1.6, 2.4],
+        "camera_distance_max": [7.0, 12.0],
+        "camera_height_min": [1.2, 2.0],
+        "camera_height_max": [7.0, 12.0],
+        "camera_angle_min": [84.0, 87.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [120.0, 155.0],
+        "focal_length_max": [175.0, 220.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "candle": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.20, 0.20],
+        "object_size_max": [0.20, 0.28],
+        "density_factor": [1.35, 1.80],
+        "min_distance_ratio": [0.40, 0.52],
+        "placement_attempts": [120, 190],
+        "camera_distance_min": [1.6, 2.4],
+        "camera_distance_max": [7.0, 12.0],
+        "camera_height_min": [1.2, 2.0],
+        "camera_height_max": [7.0, 12.0],
+        "camera_angle_min": [84.0, 87.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [120.0, 155.0],
+        "focal_length_max": [175.0, 220.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "matchstick": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.20, 0.20],
+        "object_size_max": [0.20, 0.22],
+        "density_factor": [1.70, 2.20],
+        "min_distance_ratio": [0.34, 0.44],
+        "placement_attempts": [140, 220],
+        "camera_distance_min": [1.0, 1.8],
+        "camera_distance_max": [5.5, 10.0],
+        "camera_height_min": [0.8, 1.4],
+        "camera_height_max": [5.5, 10.0],
+        "camera_angle_min": [86.0, 87.5],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [155.0, 190.0],
+        "focal_length_max": [205.0, 250.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "cigarette": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.20, 0.20],
+        "object_size_max": [0.20, 0.22],
+        "density_factor": [1.70, 2.20],
+        "min_distance_ratio": [0.34, 0.44],
+        "placement_attempts": [140, 220],
+        "camera_distance_min": [1.0, 1.8],
+        "camera_distance_max": [5.5, 10.0],
+        "camera_height_min": [0.8, 1.4],
+        "camera_height_max": [5.5, 10.0],
+        "camera_angle_min": [86.0, 87.5],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [155.0, 190.0],
+        "focal_length_max": [205.0, 250.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "dice": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.20, 0.20],
+        "object_size_max": [0.20, 0.24],
+        "density_factor": [1.55, 2.00],
+        "min_distance_ratio": [0.38, 0.48],
+        "placement_attempts": [130, 210],
+        "camera_distance_min": [1.2, 2.0],
+        "camera_distance_max": [6.0, 10.5],
+        "camera_height_min": [0.9, 1.6],
+        "camera_height_max": [6.0, 10.5],
+        "camera_angle_min": [86.0, 87.5],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [135.0, 170.0],
+        "focal_length_max": [185.0, 230.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "playing_card": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.20, 0.20],
+        "object_size_max": [0.20, 0.24],
+        "density_factor": [1.45, 1.90],
+        "min_distance_ratio": [0.40, 0.50],
+        "placement_attempts": [130, 210],
+        "camera_distance_min": [1.2, 2.0],
+        "camera_distance_max": [6.0, 10.5],
+        "camera_height_min": [0.9, 1.6],
+        "camera_height_max": [6.0, 10.5],
+        "camera_angle_min": [86.0, 87.5],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [135.0, 170.0],
+        "focal_length_max": [185.0, 230.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "book": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.22, 0.28],
+        "object_size_max": [0.36, 0.48],
+        "density_factor": [1.12, 1.42],
+        "min_distance_ratio": [0.54, 0.66],
+        "placement_attempts": [130, 210],
+        "camera_distance_min": [4.2, 6.2],
+        "camera_distance_max": [12.0, 17.5],
+        "camera_height_min": [3.0, 4.8],
+        "camera_height_max": [12.0, 18.0],
+        "camera_angle_min": [78.0, 84.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [60.0, 85.0],
+        "focal_length_max": [120.0, 160.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ],
+
+    "tower": [
+      {
+        "min_objects_per_group": [50, 120],
+        "max_total_objects": [250, 250],
+        "object_size_min": [0.60, 0.75],
+        "object_size_max": [0.95, 1.20],
+        "density_factor": [0.90, 1.05],
+        "min_distance_ratio": [0.88, 0.95],
+        "placement_attempts": [220, 320],
+        "camera_distance_min": [22.0, 30.0],
+        "camera_distance_max": [40.0, 60.0],
+        "camera_height_min": [18.0, 26.0],
+        "camera_height_max": [40.0, 65.0],
+        "camera_angle_min": [80.0, 86.0],
+        "camera_angle_max": [86.0, 88.0],
+        "focal_length_min": [20.0, 28.0],
+        "focal_length_max": [55.0, 75.0],
+        "coverage_min": [0.85, 0.88],
+        "coverage_max": [0.92, 0.98]
+      }
+    ]
+  }
+}
+
+
