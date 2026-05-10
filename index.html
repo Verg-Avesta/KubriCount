@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>KubriCount: Count Anything at Any Granularity</title>
+
+  <style type="text/css">
+    body {
+      font-family: "Times New Roman", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-weight: 200;
+      font-size: 16px;
+      margin-left: auto;
+      margin-right: auto;
+      width: 860px;
+      color: #222;
+    }
+
+    h1, h2, h3 {
+      font-weight: 400;
+      margin-top: 1.0em;
+      margin-bottom: 0.7em;
+    }
+
+    p {
+      font-size: 18px;
+      font-weight: 200;
+      line-height: 1.45;
+    }
+
+    a:link,
+    a:visited {
+      color: #1367a7;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: #208799;
+    }
+
+    hr {
+      border: 0;
+      height: 1px;
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+      margin: 28px 0;
+    }
+
+    .title {
+      font-size: 38px;
+      color: #5C5DBD;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-weight: 700;
+      line-height: 1.25;
+    }
+
+    .subtitle {
+      font-size: 27px;
+      line-height: 1.35;
+    }
+
+    .authors {
+      width: 760px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .links {
+      width: 760px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .abstract-container {
+      background-color: #f8f9fa;
+      padding: 0.2em 0.8em;
+      border-radius: 5px;
+      margin: 0.2em 0.2em;
+    }
+
+    .abstract-container p {
+      margin-top: 0.45em;
+      margin-bottom: 0.45em;
+    }
+
+    .figure {
+      width: 100%;
+      max-width: 860px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .two-col {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 18px;
+      align-items: center;
+    }
+
+    .stat-img {
+      width: 100%;
+      display: block;
+    }
+
+    .level-gallery {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 18px;
+      align-items: start;
+      margin-top: 16px;
+    }
+
+    .level-card img {
+      width: 100%;
+      display: block;
+      border: 1px solid #e5e5e5;
+      border-radius: 4px;
+    }
+
+    .level-card p {
+      font-size: 16px;
+      line-height: 1.35;
+      margin-top: 6px;
+      margin-bottom: 4px;
+      text-align: center;
+    }
+
+    .caption {
+      text-align: justify;
+      text-justify: inter-word;
+      margin-top: 10px;
+    }
+
+    .pill {
+      display: inline-block;
+      background: #eef0ff;
+      border: 1px solid #d8dcff;
+      border-radius: 4px;
+      padding: 3px 8px;
+      margin: 3px 2px;
+      font-size: 17px;
+    }
+
+    pre {
+      background: #f6f6f6;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      padding: 12px 14px;
+      overflow-x: auto;
+      font-size: 14px;
+      line-height: 1.4;
+    }
+
+    code {
+      font-family: Menlo, Consolas, Monaco, monospace;
+    }
+
+    @media (max-width: 900px) {
+      body {
+        width: calc(100% - 28px);
+      }
+
+      .authors,
+      .links {
+        width: 100%;
+      }
+
+      .two-col {
+        grid-template-columns: 1fr;
+      }
+
+      .level-gallery {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <center>
+    <div class="title">KubriCount</div>
+    <div class="subtitle">Count Anything at Any Granularity</div>
+    <br>
+  </center>
+
+  <table class="authors" align="center">
+    <tbody>
+      <tr>
+        <td align="center" width="33%">
+          <span style="font-size:20px"><a href="https://verg-avesta.github.io/">Chang Liu</a><sup>1,2</sup></span>
+        </td>
+        <td align="center" width="33%">
+          <span style="font-size:20px"><a href="https://haoningwu3639.github.io/">Haoning Wu</a><sup>1,3</sup></span>
+        </td>
+        <td align="center" width="33%">
+          <span style="font-size:20px"><a href="https://weidixie.github.io/">Weidi Xie</a><sup>1</sup></span>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <br>
+
+  <table align="center" width="820px">
+    <tbody>
+      <tr>
+        <td align="center">
+          <span style="font-size:18px"><sup>1</sup>School of Artificial Intelligence, Shanghai Jiao Tong University, China</span>
+        </td>
+      </tr>
+      <tr>
+        <td align="center">
+          <span style="font-size:18px"><sup>2</sup>CMIC, Shanghai Jiao Tong University, China</span>
+        </td>
+      </tr>
+      <tr>
+        <td align="center">
+          <span style="font-size:18px"><sup>3</sup>Shanghai AI Laboratory</span>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <br>
+
+  <table class="links" align="center">
+    <tbody>
+      <tr>
+        <td align="center" width="25%">
+          <span style="font-size:20px">Code <a href="https://github.com/Verg-Avesta/KubriCount">[GitHub]</a></span>
+        </td>
+        <td align="center" width="25%">
+          <span style="font-size:20px">Paper <a href="TODO_PAPER_URL">[Paper]</a></span>
+        </td>
+        <td align="center" width="25%">
+          <span style="font-size:20px">Data <a href="https://huggingface.co/datasets/liuchang666/KubriCount">[HuggingFace]</a></span>
+        </td>
+        <td align="center" width="25%">
+          <span style="font-size:20px">Cite <a href="#citation">[BibTeX]</a></span>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <br>
+  <hr>
+
+  <center>
+    <img class="figure" src="./resources/teaser.webp" alt="KubriCount teaser">
+  </center>
+  <p class="caption">
+    <strong style="font-weight: 900">Overview.</strong>
+    KubriCount is a multi-grained counting benchmark covering five explicit semantic levels.
+    The dataset tests whether models count the intended target set under prompts that specify
+    identity, attribute, category, instance type, or concept-level granularity.
+  </p>
+
+  <br>
+
+  <center><h2><strong>Abstract</strong></h2></center>
+  <div class="abstract-container">
+    <p style="text-align:justify; text-justify:inter-word;">
+      Open-world object counting remains brittle: despite rapid advances in vision-language models,
+      reliably counting the objects a user intends is far from solved. A central reason is that
+      counting granularity is often left implicit; users may refer to a specific identity, an
+      attribute, an instance type, a category, or an abstract concept, yet most methods treat
+      "what to count" as a single category-level matching problem.
+    </p>
+    <p style="text-align:justify; text-justify:inter-word;">
+      We redefine open-world counting as <strong>multi-grained counting</strong>, where visual
+      exemplars specify target appearance and fine-grained text specifies the intended semantic
+      granularity across five explicit levels. To address the data bottleneck exposed by this
+      formulation, we build <strong>KubriCount</strong>, a large-scale synthetic benchmark produced
+      by controllable 3D synthesis, consistent image editing, and VLM-based filtering. KubriCount
+      provides dense instance-level annotations and controlled distractors for training and
+      multi-grained evaluation.
+    </p>
+  </div>
+
+  <br>
+  <hr>
+
+  <center><h2><strong>Multi-Grained Counting</strong></h2></center>
+  <center>
+    <img class="figure" src="./resources/level.webp" alt="Multi-grained counting levels">
+  </center>
+  <p class="caption">
+    <strong style="font-weight: 900">Five semantic levels.</strong>
+    KubriCount makes counting granularity explicit by defining target and distractor sets over a
+    semantic hierarchy: category, instance type, and attributes such as size and color.
+  </p>
+  <p>
+    <span class="pill">L1: Identity-level</span>
+    <span class="pill">L2: Attribute-level</span>
+    <span class="pill">L3: Category-level</span>
+    <span class="pill">L4: Instance-level</span>
+    <span class="pill">L5: Concept-level</span>
+  </p>
+
+  <center><h2><strong>Automatic Data Scaling Pipeline</strong></h2></center>
+  <center>
+    <img class="figure" src="./resources/pipeline.webp" alt="KubriCount data generation pipeline">
+  </center>
+  <p class="caption">
+    <strong style="font-weight: 900">Pipeline.</strong>
+    We curate and generate 3D assets, synthesize labeled prototypes with Kubric, apply
+    mask-conditioned consistent image editing to improve realism, and use VLM-based filtering with
+    an edit-filter loop to ensure label consistency.
+  </p>
+
+  <br>
+  <hr>
+
+  <center><h2><strong>Dataset Statistics</strong></h2></center>
+  <div class="two-col">
+    <img class="stat-img" src="./resources/category_donut.webp" alt="Category distribution">
+    <img class="stat-img" src="./resources/count_histogram.webp" alt="Count distribution">
+  </div>
+  <p class="caption">
+    <strong style="font-weight: 900">KubriCount statistics.</strong>
+    The dataset contains 110,507 images, 157 categories, approximately 7.3M annotated objects, and
+    up to 250 objects per image. It provides counts, center points, 2D/3D boxes, masks, and metadata
+    for multi-grained evaluation.
+  </p>
+
+  <br>
+  <hr>
+
+  <center><h2><strong>Visualization</strong></h2></center>
+  <p class="caption">
+    The following examples visualize each granularity level in KubriCount, including the rendered
+    scene, target/distractor specification, and corresponding annotations.
+  </p>
+  <div class="level-gallery">
+    <div class="level-card">
+      <img src="./resources/level1.webp" alt="Level 1 identity-level visualization">
+      <p><strong>Level 1.</strong> Identity-level counting.</p>
+    </div>
+    <div class="level-card">
+      <img src="./resources/level2_size.webp" alt="Level 2 size attribute visualization">
+      <p><strong>Level 2.</strong> Attribute-level counting by size.</p>
+    </div>
+    <div class="level-card">
+      <img src="./resources/level2_color.webp" alt="Level 2 color attribute visualization">
+      <p><strong>Level 2.</strong> Attribute-level counting by color.</p>
+    </div>
+    <div class="level-card">
+      <img src="./resources/level3.webp" alt="Level 3 category-level visualization">
+      <p><strong>Level 3.</strong> Category-level counting.</p>
+    </div>
+    <div class="level-card">
+      <img src="./resources/level4.webp" alt="Level 4 instance-level visualization">
+      <p><strong>Level 4.</strong> Instance-level counting.</p>
+    </div>
+    <div class="level-card">
+      <img src="./resources/level5.webp" alt="Level 5 concept-level visualization">
+      <p><strong>Level 5.</strong> Concept-level counting.</p>
+    </div>
+  </div>
+
+  <br>
+  <hr>
+
+  <center><h2><strong>Qualitative Results</strong></h2></center>
+  <center>
+    <img class="figure" src="./resources/visual.webp" alt="Qualitative results">
+  </center>
+  <p class="caption">
+    <strong style="font-weight: 900">Qualitative examples.</strong>
+    Representative cases contrast prior models with HieraCount under the same multi-grained prompts.
+    These examples highlight improved prompt following on challenging attribute-, category-, and
+    instance-sensitive queries.
+  </p>
+
+  <br>
+  <hr>
+
+  <center><h2><strong>Resources</strong></h2></center>
+  <p>
+    <strong>Dataset.</strong>
+    The KubriCount dataset is available at
+    <a href="https://huggingface.co/datasets/liuchang666/KubriCount">Hugging Face</a>.
+    The released dataset can be used directly without running the generation pipeline.
+  </p>
+  <p>
+    <strong>Code.</strong>
+    The data generation code is available on <a href="https://github.com/Verg-Avesta/KubriCount">GitHub</a>.
+  </p>
+
+  <br>
+  <hr>
+
+  <center><h2 id="citation"><strong>Citation</strong></h2></center>
+  <p>Coming soon.</p>
+
+  <br>
+  <hr>
+
+  <center><h2><strong>Acknowledgements</strong></h2></center>
+  <p>
+    This project builds on the excellent
+    <a href="https://github.com/google-research/kubric">Kubric</a> data generation framework.
+    We thank the Kubric authors and contributors for making their rendering and simulation
+    infrastructure publicly available. This page follows the style of common academic project pages.
+  </p>
+  <p>
+    Based on a template by <a href="http://web.mit.edu/phillipi/">Phillip Isola</a> and
+    <a href="http://richzhang.github.io/">Richard Zhang</a>.
+  </p>
+
+  <br>
+  <br>
+</body>
+
+</html>

@@ -1,0 +1,6 @@
+*.png
+*.pdf
+*.psd
+*.ai
+.DS_Store
+__pycache__/
