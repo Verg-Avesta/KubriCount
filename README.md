@@ -1,6 +1,8 @@
-# KubriCount
+# KubriCount: Count Anything at Any Granularity
 
 Official code release and dataset-generation pipeline for **Count Anything at Any Granularity**.
+
+[🏡 Project Page](https://verg-avesta.github.io/KubriCount/) | [📄 Paper](https://arxiv.org/abs/2605.10887) | [🤗 Dataset](https://huggingface.co/datasets/liuchang666/KubriCount)
 
 KubriCount is a large-scale synthetic benchmark for **multi-grained visual counting**. The project targets open-world counting settings where the intended counting granularity must be explicit: identity, attribute, category, instance type, or concept. This repository provides the code used to construct KubriCount: controllable 3D synthesis, mask-conditioned image editing, and VLM-based filtering for dense instance-level supervision with controlled distractors.
 
@@ -133,7 +135,16 @@ python gemini_filter_redo.py --root_path KubriCount/train --workers 20 --flush_e
 
 ## Citation
 
-Coming soon.
+If you find this project useful, please cite:
+
+```bibtex
+@article{liu2026count,
+  title={Count Anything at Any Granularity},
+  author={Liu, Chang and Wu, Haoning and Xie, Weidi},
+  journal={arXiv preprint arXiv:2605.10887},
+  year={2026}
+}
+```
 
 ## Acknowledgements
 
