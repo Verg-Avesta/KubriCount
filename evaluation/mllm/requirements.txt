@@ -1,0 +1,8 @@
+requests
+tqdm
+Pillow
+torch
+torchvision
+transformers
+accelerate
+qwen-vl-utils

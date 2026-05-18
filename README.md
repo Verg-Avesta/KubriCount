@@ -74,6 +74,7 @@ KubriCount defines five counting levels. Each level specifies a target set and, 
 .
 ├── kubric/              # Core Kubric-based rendering and simulation package
 ├── docker/              # Dockerfiles for building runtime environments
+├── evaluation/          # Evaluation scripts for MLLMs and expert counting models
 ├── assets/              # Placeholder for external 3D assets and manifests
 ├── docker-image/        # Placeholder for external prebuilt Docker image archives
 ├── KubriCount/          # Placeholder for the Hugging Face dataset
@@ -132,6 +133,34 @@ python gemini_filter.py --root_path KubriCount/train --workers 20 --flush_every 
 # Iterative re-checking after re-editing.
 python gemini_filter_redo.py --root_path KubriCount/train --workers 20 --flush_every 1000
 ```
+
+### Evaluate MLLMs
+
+MLLM evaluation scripts are available under `evaluation/mllm/`. They support API-based models and local Hugging Face vision-language models:
+
+```bash
+python evaluation/mllm/eval_api_models.py --help
+python evaluation/mllm/eval_open_models.py --help
+```
+
+See `evaluation/mllm/README.md` for setup and example commands.
+
+### Evaluate Counting Expert Models
+
+KubriCount inference adapters for FamNet, LOCA, CounTR, DAVE, GeCo, Rex-Omni, CountGD++, and CountGD are available under `evaluation/counting_expert_models/`. These adapters keep the original model imports but do not vendor third-party model code or checkpoints.
+
+```bash
+python evaluation/counting_expert_models/famnet/inference_kub_famnet_batch.py --help
+python evaluation/counting_expert_models/loca/inference_kub_loca_batch.py --help
+python evaluation/counting_expert_models/countr/inference_kub_countr_batch.py --help
+python evaluation/counting_expert_models/dave/inference_kub_dave_batch.py --help
+python evaluation/counting_expert_models/geco/inference_kub_geco_batch.py --help
+python evaluation/counting_expert_models/rex_omni/inference_kub_rex_omni.py --help
+python evaluation/counting_expert_models/countgdpp/inference_kub_countgdpp_batch.py --help
+python evaluation/counting_expert_models/countgd/inference_kub_countgd_batch.py --help
+```
+
+See `evaluation/counting_expert_models/README.md` for setup notes and example commands.
 
 ## Citation
 
